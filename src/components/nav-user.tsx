@@ -9,6 +9,7 @@ import {
   RiSparklingLine,
 } from "@remixicon/react"
 import { useQuery } from "@tanstack/react-query"
+import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { toast } from "sonner"
 
@@ -92,9 +93,11 @@ export function NavUser() {
             </DropdownMenuLabel>
             <DropdownMenuSeparator />
             <DropdownMenuGroup>
-              <DropdownMenuItem>
-                <RiCheckboxCircleLine />
-                Account
+              <DropdownMenuItem asChild>
+                <Link href="/dashboard/account">
+                  <RiCheckboxCircleLine />
+                  Account
+                </Link>
               </DropdownMenuItem>
             </DropdownMenuGroup>
             <DropdownMenuSeparator />

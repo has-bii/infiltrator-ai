@@ -1,6 +1,7 @@
 "use client"
 
 import { RiArrowRightSLine } from "@remixicon/react"
+import Link from "next/link"
 
 import {
   SidebarGroup,
@@ -22,9 +23,11 @@ export function NavMain({ items }: { items: MainSidebarMenuItem[] }) {
       <SidebarMenu>
         {items.map((item) => (
           <SidebarMenuItem key={item.title}>
-            <SidebarMenuButton tooltip={item.title}>
-              {item.icon}
-              <span>{item.title}</span>
+            <SidebarMenuButton asChild>
+              <Link href={item.url}>
+                {item.icon}
+                <span>{item.title}</span>
+              </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
         ))}
