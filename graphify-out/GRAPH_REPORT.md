@@ -1,44 +1,72 @@
-# Graph Report - ./src  (2026-05-01)
+# Graph Report - infiltrator-ai  (2026-05-01)
 
 ## Corpus Check
-- Corpus is ~2,410 words - fits in a single context window. You may not need a graph.
+- 46 files · ~7,407 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 39 nodes · 18 edges · 2 communities detected
-- Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.8)
+- 96 nodes · 56 edges · 4 communities detected
+- Extraction: 91% EXTRACTED · 9% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_Login Form|Login Form]]
-- [[_COMMUNITY_Register Form|Register Form]]
+- [[_COMMUNITY_Community 0|Community 0]]
+- [[_COMMUNITY_Community 3|Community 3]]
+- [[_COMMUNITY_Community 4|Community 4]]
+- [[_COMMUNITY_Community 5|Community 5]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `LoginForm()` - 2 edges
-2. `RegisterForm()` - 2 edges
-3. `useRegisterForm()` - 2 edges
-4. `useLoginForm()` - 2 edges
+1. `useSidebar()` - 4 edges
+2. `LoginForm()` - 2 edges
+3. `RegisterForm()` - 2 edges
+4. `useRegisterForm()` - 2 edges
+5. `useLoginForm()` - 2 edges
+6. `getUserQueryOptions()` - 2 edges
+7. `TeamSwitcher()` - 2 edges
+8. `NavUser()` - 2 edges
+9. `NavSessions()` - 2 edges
+10. `SidebarMenuButton()` - 2 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `LoginForm()` --calls--> `useLoginForm()`  [INFERRED]
-  features/auth/components/LoginForm.tsx → features/auth/hooks/useLoginForm.ts
+  src/features/auth/components/LoginForm.tsx → src/features/auth/hooks/useLoginForm.ts
 - `RegisterForm()` --calls--> `useRegisterForm()`  [INFERRED]
-  features/auth/components/RegisterForm.tsx → features/auth/hooks/useRegisterForm.ts
+  src/features/auth/components/RegisterForm.tsx → src/features/auth/hooks/useRegisterForm.ts
+- `NavUser()` --calls--> `getUserQueryOptions()`  [INFERRED]
+  src/components/nav-user.tsx → src/features/auth/query/getUserQueryOptions.ts
+- `TeamSwitcher()` --calls--> `useSidebar()`  [INFERRED]
+  src/components/team-switcher.tsx → src/components/ui/sidebar.tsx
+- `NavSessions()` --calls--> `useSidebar()`  [INFERRED]
+  src/components/nav-sessions.tsx → src/components/ui/sidebar.tsx
 
 ## Communities
 
-### Community 0 - "Login Form"
+### Community 0 - "Community 0"
+Cohesion: 0.2
+Nodes (4): NavSessions(), TeamSwitcher(), SidebarMenuButton(), useSidebar()
+
+### Community 3 - "Community 3"
 Cohesion: 0.5
 Nodes (2): LoginForm(), useLoginForm()
 
-### Community 1 - "Register Form"
+### Community 4 - "Community 4"
 Cohesion: 0.5
 Nodes (2): RegisterForm(), useRegisterForm()
 
+### Community 5 - "Community 5"
+Cohesion: 0.5
+Nodes (2): NavUser(), getUserQueryOptions()
+
 ## Knowledge Gaps
-- **Thin community `Login Form`** (4 nodes): `LoginForm()`, `LoginForm.tsx`, `useLoginForm.ts`, `useLoginForm()`
+- **Thin community `Community 3`** (4 nodes): `LoginForm()`, `useLoginForm()`, `LoginForm.tsx`, `useLoginForm.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Register Form`** (4 nodes): `RegisterForm()`, `RegisterForm.tsx`, `useRegisterForm.ts`, `useRegisterForm()`
+- **Thin community `Community 4`** (4 nodes): `RegisterForm()`, `useRegisterForm()`, `RegisterForm.tsx`, `useRegisterForm.ts`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 5`** (4 nodes): `NavUser()`, `getUserQueryOptions()`, `nav-user.tsx`, `getUserQueryOptions.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 
 ## Suggested Questions
-_Not enough signal to generate questions. This usually means the corpus has no AMBIGUOUS edges, no bridge nodes, no INFERRED relationships, and all communities are tightly cohesive. Add more files or run with --mode deep to extract richer edges._
+_Questions this graph is uniquely positioned to answer:_
+
+- **Are the 2 inferred relationships involving `useSidebar()` (e.g. with `TeamSwitcher()` and `NavSessions()`) actually correct?**
+  _`useSidebar()` has 2 INFERRED edges - model-reasoned connections that need verification._
