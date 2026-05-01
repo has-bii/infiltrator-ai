@@ -1056,8 +1056,8 @@
       "source_file": "src/components/nav-user.tsx",
       "source_location": "L30",
       "weight": 1.0,
-      "_src": "components_nav_user_navuser",
-      "_tgt": "query_getuserqueryoptions_getuserqueryoptions",
+      "_src": "query_getuserqueryoptions_getuserqueryoptions",
+      "_tgt": "components_nav_user_navuser",
       "source": "query_getuserqueryoptions_getuserqueryoptions",
       "target": "components_nav_user_navuser"
     },

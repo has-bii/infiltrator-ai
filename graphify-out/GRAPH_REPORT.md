@@ -32,8 +32,8 @@
   src/features/auth/components/LoginForm.tsx → src/features/auth/hooks/useLoginForm.ts
 - `RegisterForm()` --calls--> `useRegisterForm()`  [INFERRED]
   src/features/auth/components/RegisterForm.tsx → src/features/auth/hooks/useRegisterForm.ts
-- `NavUser()` --calls--> `getUserQueryOptions()`  [INFERRED]
-  src/components/nav-user.tsx → src/features/auth/query/getUserQueryOptions.ts
+- `getUserQueryOptions()` --calls--> `NavUser()`  [INFERRED]
+  src/features/auth/query/getUserQueryOptions.ts → src/components/nav-user.tsx
 - `TeamSwitcher()` --calls--> `useSidebar()`  [INFERRED]
   src/components/team-switcher.tsx → src/components/ui/sidebar.tsx
 - `NavSessions()` --calls--> `useSidebar()`  [INFERRED]
