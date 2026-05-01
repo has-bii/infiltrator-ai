@@ -1,1 +1,1103 @@
-{"nodes": [{"id": "postcss_config_mjs", "label": "postcss.config.mjs", "file_type": "code", "source_file": "postcss.config.mjs", "source_location": "L1", "community": 13, "norm_label": "postcss.config.mjs"}, {"id": "prisma_config_ts", "label": "prisma.config.ts", "file_type": "code", "source_file": "prisma.config.ts", "source_location": "L1", "community": 14, "norm_label": "prisma.config.ts"}, {"id": "eslint_config_mjs", "label": "eslint.config.mjs", "file_type": "code", "source_file": "eslint.config.mjs", "source_location": "L1", "community": 15, "norm_label": "eslint.config.mjs"}, {"id": "next_config_ts", "label": "next.config.ts", "file_type": "code", "source_file": "next.config.ts", "source_location": "L1", "community": 16, "norm_label": "next.config.ts"}, {"id": "src_app_layout_tsx", "label": "layout.tsx", "file_type": "code", "source_file": "src/app/layout.tsx", "source_location": "L1", "community": 3, "norm_label": "layout.tsx"}, {"id": "app_layout_rootlayout", "label": "RootLayout()", "file_type": "code", "source_file": "app/layout.tsx", "source_location": "L26", "community": 3, "norm_label": "rootlayout()"}, {"id": "src_app_page_tsx", "label": "page.tsx", "file_type": "code", "source_file": "src/app/page.tsx", "source_location": "L1", "community": 17, "norm_label": "page.tsx"}, {"id": "src_app_auth_layout_tsx", "label": "layout.tsx", "file_type": "code", "source_file": "src/app/auth/layout.tsx", "source_location": "L1", "community": 4, "norm_label": "layout.tsx"}, {"id": "auth_layout_layout", "label": "Layout()", "file_type": "code", "source_file": "app/auth/layout.tsx", "source_location": "L7", "community": 4, "norm_label": "layout()"}, {"id": "src_app_auth_register_page_tsx", "label": "page.tsx", "file_type": "code", "source_file": "src/app/auth/register/page.tsx", "source_location": "L1", "community": 5, "norm_label": "page.tsx"}, {"id": "register_page_registerpage", "label": "RegisterPage()", "file_type": "code", "source_file": "app/auth/register/page.tsx", "source_location": "L4", "community": 5, "norm_label": "registerpage()"}, {"id": "src_app_auth_login_page_tsx", "label": "page.tsx", "file_type": "code", "source_file": "src/app/auth/login/page.tsx", "source_location": "L1", "community": 6, "norm_label": "page.tsx"}, {"id": "login_page_loginpage", "label": "LoginPage()", "file_type": "code", "source_file": "app/auth/login/page.tsx", "source_location": "L4", "community": 6, "norm_label": "loginpage()"}, {"id": "src_app_api_auth_all_route_ts", "label": "route.ts", "file_type": "code", "source_file": "src/app/api/auth/[...all]/route.ts", "source_location": "L1", "community": 18, "norm_label": "route.ts"}, {"id": "src_features_auth_components_loginform_tsx", "label": "LoginForm.tsx", "file_type": "code", "source_file": "src/features/auth/components/LoginForm.tsx", "source_location": "L1", "community": 0, "norm_label": "loginform.tsx"}, {"id": "components_loginform_loginform", "label": "LoginForm()", "file_type": "code", "source_file": "features/auth/components/LoginForm.tsx", "source_location": "L9", "community": 0, "norm_label": "loginform()"}, {"id": "src_features_auth_components_registerform_tsx", "label": "RegisterForm.tsx", "file_type": "code", "source_file": "src/features/auth/components/RegisterForm.tsx", "source_location": "L1", "community": 1, "norm_label": "registerform.tsx"}, {"id": "components_registerform_registerform", "label": "RegisterForm()", "file_type": "code", "source_file": "features/auth/components/RegisterForm.tsx", "source_location": "L9", "community": 1, "norm_label": "registerform()"}, {"id": "src_features_auth_components_authlayout_tsx", "label": "AuthLayout.tsx", "file_type": "code", "source_file": "src/features/auth/components/AuthLayout.tsx", "source_location": "L1", "community": 19, "norm_label": "authlayout.tsx"}, {"id": "src_features_auth_hooks_useregisterform_ts", "label": "useRegisterForm.ts", "file_type": "code", "source_file": "src/features/auth/hooks/useRegisterForm.ts", "source_location": "L1", "community": 1, "norm_label": "useregisterform.ts"}, {"id": "hooks_useregisterform_useregisterform", "label": "useRegisterForm()", "file_type": "code", "source_file": "features/auth/hooks/useRegisterForm.ts", "source_location": "L11", "community": 1, "norm_label": "useregisterform()"}, {"id": "src_features_auth_hooks_useloginform_ts", "label": "useLoginForm.ts", "file_type": "code", "source_file": "src/features/auth/hooks/useLoginForm.ts", "source_location": "L1", "community": 0, "norm_label": "useloginform.ts"}, {"id": "hooks_useloginform_useloginform", "label": "useLoginForm()", "file_type": "code", "source_file": "features/auth/hooks/useLoginForm.ts", "source_location": "L11", "community": 0, "norm_label": "useloginform()"}, {"id": "src_features_auth_validation_index_ts", "label": "index.ts", "file_type": "code", "source_file": "src/features/auth/validation/index.ts", "source_location": "L1", "community": 20, "norm_label": "index.ts"}, {"id": "src_components_ui_card_tsx", "label": "card.tsx", "file_type": "code", "source_file": "src/components/ui/card.tsx", "source_location": "L1", "community": 2, "norm_label": "card.tsx"}, {"id": "ui_card_cn", "label": "cn()", "file_type": "code", "source_file": "components/ui/card.tsx", "source_location": "L14", "community": 2, "norm_label": "cn()"}, {"id": "ui_card_cardaction", "label": "CardAction()", "file_type": "code", "source_file": "components/ui/card.tsx", "source_location": "L59", "community": 2, "norm_label": "cardaction()"}, {"id": "src_components_ui_field_tsx", "label": "field.tsx", "file_type": "code", "source_file": "src/components/ui/field.tsx", "source_location": "L1", "community": 7, "norm_label": "field.tsx"}, {"id": "ui_field_cn", "label": "cn()", "file_type": "code", "source_file": "components/ui/field.tsx", "source_location": "L14", "community": 7, "norm_label": "cn()"}, {"id": "src_components_ui_label_tsx", "label": "label.tsx", "file_type": "code", "source_file": "src/components/ui/label.tsx", "source_location": "L1", "community": 8, "norm_label": "label.tsx"}, {"id": "ui_label_label", "label": "Label()", "file_type": "code", "source_file": "components/ui/label.tsx", "source_location": "L8", "community": 8, "norm_label": "label()"}, {"id": "src_components_ui_sonner_tsx", "label": "sonner.tsx", "file_type": "code", "source_file": "src/components/ui/sonner.tsx", "source_location": "L1", "community": 21, "norm_label": "sonner.tsx"}, {"id": "src_components_ui_separator_tsx", "label": "separator.tsx", "file_type": "code", "source_file": "src/components/ui/separator.tsx", "source_location": "L1", "community": 9, "norm_label": "separator.tsx"}, {"id": "ui_separator_separator", "label": "Separator()", "file_type": "code", "source_file": "components/ui/separator.tsx", "source_location": "L8", "community": 9, "norm_label": "separator()"}, {"id": "src_components_ui_button_tsx", "label": "button.tsx", "file_type": "code", "source_file": "src/components/ui/button.tsx", "source_location": "L1", "community": 10, "norm_label": "button.tsx"}, {"id": "ui_button_cn", "label": "cn()", "file_type": "code", "source_file": "components/ui/button.tsx", "source_location": "L59", "community": 10, "norm_label": "cn()"}, {"id": "src_components_ui_input_tsx", "label": "input.tsx", "file_type": "code", "source_file": "src/components/ui/input.tsx", "source_location": "L1", "community": 11, "norm_label": "input.tsx"}, {"id": "ui_input_input", "label": "Input()", "file_type": "code", "source_file": "components/ui/input.tsx", "source_location": "L5", "community": 11, "norm_label": "input()"}, {"id": "src_lib_prisma_ts", "label": "prisma.ts", "file_type": "code", "source_file": "src/lib/prisma.ts", "source_location": "L1", "community": 22, "norm_label": "prisma.ts"}, {"id": "src_lib_utils_ts", "label": "utils.ts", "file_type": "code", "source_file": "src/lib/utils.ts", "source_location": "L1", "community": 12, "norm_label": "utils.ts"}, {"id": "lib_utils_cn", "label": "cn()", "file_type": "code", "source_file": "src/lib/utils.ts", "source_location": "L4", "community": 12, "norm_label": "cn()"}, {"id": "src_lib_auth_ts", "label": "auth.ts", "file_type": "code", "source_file": "src/lib/auth.ts", "source_location": "L1", "community": 23, "norm_label": "auth.ts"}, {"id": "src_lib_auth_client_ts", "label": "auth-client.ts", "file_type": "code", "source_file": "src/lib/auth-client.ts", "source_location": "L1", "community": 24, "norm_label": "auth-client.ts"}, {"id": "app_layout_tsx", "label": "layout.tsx", "file_type": "code", "source_file": "app/layout.tsx", "source_location": "L1"}, {"id": "app_auth_layout_tsx", "label": "layout.tsx", "file_type": "code", "source_file": "app/auth/layout.tsx", "source_location": "L1"}, {"id": "app_auth_register_page_tsx", "label": "page.tsx", "file_type": "code", "source_file": "app/auth/register/page.tsx", "source_location": "L1"}, {"id": "app_auth_login_page_tsx", "label": "page.tsx", "file_type": "code", "source_file": "app/auth/login/page.tsx", "source_location": "L1"}, {"id": "features_auth_components_loginform_tsx", "label": "LoginForm.tsx", "file_type": "code", "source_file": "features/auth/components/LoginForm.tsx", "source_location": "L1"}, {"id": "features_auth_components_registerform_tsx", "label": "RegisterForm.tsx", "file_type": "code", "source_file": "features/auth/components/RegisterForm.tsx", "source_location": "L1"}, {"id": "features_auth_components_authlayout_tsx", "label": "AuthLayout.tsx", "file_type": "code", "source_file": "features/auth/components/AuthLayout.tsx", "source_location": "L1"}, {"id": "features_auth_hooks_useregisterform_ts", "label": "useRegisterForm.ts", "file_type": "code", "source_file": "features/auth/hooks/useRegisterForm.ts", "source_location": "L1"}, {"id": "features_auth_hooks_useloginform_ts", "label": "useLoginForm.ts", "file_type": "code", "source_file": "features/auth/hooks/useLoginForm.ts", "source_location": "L1"}, {"id": "features_auth_validation_index_ts", "label": "index.ts", "file_type": "code", "source_file": "features/auth/validation/index.ts", "source_location": "L1"}, {"id": "components_ui_card_tsx", "label": "card.tsx", "file_type": "code", "source_file": "components/ui/card.tsx", "source_location": "L1"}, {"id": "components_ui_field_tsx", "label": "field.tsx", "file_type": "code", "source_file": "components/ui/field.tsx", "source_location": "L1"}, {"id": "components_ui_label_tsx", "label": "label.tsx", "file_type": "code", "source_file": "components/ui/label.tsx", "source_location": "L1"}, {"id": "components_ui_sonner_tsx", "label": "sonner.tsx", "file_type": "code", "source_file": "components/ui/sonner.tsx", "source_location": "L1"}, {"id": "components_ui_separator_tsx", "label": "separator.tsx", "file_type": "code", "source_file": "components/ui/separator.tsx", "source_location": "L1"}, {"id": "components_ui_button_tsx", "label": "button.tsx", "file_type": "code", "source_file": "components/ui/button.tsx", "source_location": "L1"}, {"id": "components_ui_input_tsx", "label": "input.tsx", "file_type": "code", "source_file": "components/ui/input.tsx", "source_location": "L1"}], "edges": [{"source": "src_app_layout_tsx", "target": "app_layout_rootlayout", "relation": "contains", "confidence": "EXTRACTED", "source_file": "src/app/layout.tsx", "source_location": "L26", "weight": 1.0, "_src": "src_app_layout_tsx", "_tgt": "app_layout_rootlayout", "confidence_score": 1.0}, {"source": "app_layout_rootlayout", "target": "app_layout_tsx", "relation": "contains", "confidence": "EXTRACTED", "source_file": "app/layout.tsx", "source_location": "L26", "weight": 1.0, "_src": "app_layout_tsx", "_tgt": "app_layout_rootlayout"}, {"source": "src_app_auth_layout_tsx", "target": "auth_layout_layout", "relation": "contains", "confidence": "EXTRACTED", "source_file": "src/app/auth/layout.tsx", "source_location": "L7", "weight": 1.0, "_src": "src_app_auth_layout_tsx", "_tgt": "auth_layout_layout", "confidence_score": 1.0}, {"source": "auth_layout_layout", "target": "app_auth_layout_tsx", "relation": "contains", "confidence": "EXTRACTED", "source_file": "app/auth/layout.tsx", "source_location": "L7", "weight": 1.0, "_src": "app_auth_layout_tsx", "_tgt": "auth_layout_layout"}, {"source": "src_app_auth_register_page_tsx", "target": "register_page_registerpage", "relation": "contains", "confidence": "EXTRACTED", "source_file": "src/app/auth/register/page.tsx", "source_location": "L4", "weight": 1.0, "_src": "src_app_auth_register_page_tsx", "_tgt": "register_page_registerpage", "confidence_score": 1.0}, {"source": "register_page_registerpage", "target": "app_auth_register_page_tsx", "relation": "contains", "confidence": "EXTRACTED", "source_file": "app/auth/register/page.tsx", "source_location": "L4", "weight": 1.0, "_src": "app_auth_register_page_tsx", "_tgt": "register_page_registerpage"}, {"source": "src_app_auth_login_page_tsx", "target": "login_page_loginpage", "relation": "contains", "confidence": "EXTRACTED", "source_file": "src/app/auth/login/page.tsx", "source_location": "L4", "weight": 1.0, "_src": "src_app_auth_login_page_tsx", "_tgt": "login_page_loginpage", "confidence_score": 1.0}, {"source": "login_page_loginpage", "target": "app_auth_login_page_tsx", "relation": "contains", "confidence": "EXTRACTED", "source_file": "app/auth/login/page.tsx", "source_location": "L4", "weight": 1.0, "_src": "app_auth_login_page_tsx", "_tgt": "login_page_loginpage"}, {"source": "src_features_auth_components_loginform_tsx", "target": "components_loginform_loginform", "relation": "contains", "confidence": "EXTRACTED", "source_file": "src/features/auth/components/LoginForm.tsx", "source_location": "L9", "weight": 1.0, "_src": "src_features_auth_components_loginform_tsx", "_tgt": "components_loginform_loginform", "confidence_score": 1.0}, {"source": "components_loginform_loginform", "target": "hooks_useloginform_useloginform", "relation": "calls", "confidence": "INFERRED", "confidence_score": 0.8, "source_file": "features/auth/components/LoginForm.tsx", "source_location": "L10", "weight": 1.0, "_src": "components_loginform_loginform", "_tgt": "hooks_useloginform_useloginform"}, {"source": "components_loginform_loginform", "target": "features_auth_components_loginform_tsx", "relation": "contains", "confidence": "EXTRACTED", "source_file": "features/auth/components/LoginForm.tsx", "source_location": "L9", "weight": 1.0, "_src": "features_auth_components_loginform_tsx", "_tgt": "components_loginform_loginform"}, {"source": "src_features_auth_components_registerform_tsx", "target": "components_registerform_registerform", "relation": "contains", "confidence": "EXTRACTED", "source_file": "src/features/auth/components/RegisterForm.tsx", "source_location": "L9", "weight": 1.0, "_src": "src_features_auth_components_registerform_tsx", "_tgt": "components_registerform_registerform", "confidence_score": 1.0}, {"source": "components_registerform_registerform", "target": "hooks_useregisterform_useregisterform", "relation": "calls", "confidence": "INFERRED", "confidence_score": 0.8, "source_file": "features/auth/components/RegisterForm.tsx", "source_location": "L10", "weight": 1.0, "_src": "components_registerform_registerform", "_tgt": "hooks_useregisterform_useregisterform"}, {"source": "components_registerform_registerform", "target": "features_auth_components_registerform_tsx", "relation": "contains", "confidence": "EXTRACTED", "source_file": "features/auth/components/RegisterForm.tsx", "source_location": "L9", "weight": 1.0, "_src": "features_auth_components_registerform_tsx", "_tgt": "components_registerform_registerform"}, {"source": "src_features_auth_hooks_useregisterform_ts", "target": "hooks_useregisterform_useregisterform", "relation": "contains", "confidence": "EXTRACTED", "source_file": "src/features/auth/hooks/useRegisterForm.ts", "source_location": "L11", "weight": 1.0, "_src": "src_features_auth_hooks_useregisterform_ts", "_tgt": "hooks_useregisterform_useregisterform", "confidence_score": 1.0}, {"source": "hooks_useregisterform_useregisterform", "target": "features_auth_hooks_useregisterform_ts", "relation": "contains", "confidence": "EXTRACTED", "source_file": "features/auth/hooks/useRegisterForm.ts", "source_location": "L11", "weight": 1.0, "_src": "features_auth_hooks_useregisterform_ts", "_tgt": "hooks_useregisterform_useregisterform"}, {"source": "src_features_auth_hooks_useloginform_ts", "target": "hooks_useloginform_useloginform", "relation": "contains", "confidence": "EXTRACTED", "source_file": "src/features/auth/hooks/useLoginForm.ts", "source_location": "L11", "weight": 1.0, "_src": "src_features_auth_hooks_useloginform_ts", "_tgt": "hooks_useloginform_useloginform", "confidence_score": 1.0}, {"source": "hooks_useloginform_useloginform", "target": "features_auth_hooks_useloginform_ts", "relation": "contains", "confidence": "EXTRACTED", "source_file": "features/auth/hooks/useLoginForm.ts", "source_location": "L11", "weight": 1.0, "_src": "features_auth_hooks_useloginform_ts", "_tgt": "hooks_useloginform_useloginform"}, {"source": "src_components_ui_card_tsx", "target": "ui_card_cn", "relation": "contains", "confidence": "EXTRACTED", "source_file": "src/components/ui/card.tsx", "source_location": "L40", "weight": 1.0, "_src": "src_components_ui_card_tsx", "_tgt": "ui_card_cn", "confidence_score": 1.0}, {"source": "src_components_ui_card_tsx", "target": "ui_card_cardaction", "relation": "contains", "confidence": "EXTRACTED", "source_file": "src/components/ui/card.tsx", "source_location": "L59", "weight": 1.0, "_src": "src_components_ui_card_tsx", "_tgt": "ui_card_cardaction", "confidence_score": 1.0}, {"source": "ui_card_cn", "target": "components_ui_card_tsx", "relation": "contains", "confidence": "EXTRACTED", "source_file": "components/ui/card.tsx", "source_location": "L40", "weight": 1.0, "_src": "components_ui_card_tsx", "_tgt": "ui_card_cn"}, {"source": "ui_card_cardaction", "target": "components_ui_card_tsx", "relation": "contains", "confidence": "EXTRACTED", "source_file": "components/ui/card.tsx", "source_location": "L59", "weight": 1.0, "_src": "components_ui_card_tsx", "_tgt": "ui_card_cardaction"}, {"source": "src_components_ui_field_tsx", "target": "ui_field_cn", "relation": "contains", "confidence": "EXTRACTED", "source_file": "src/components/ui/field.tsx", "source_location": "L157", "weight": 1.0, "_src": "src_components_ui_field_tsx", "_tgt": "ui_field_cn", "confidence_score": 1.0}, {"source": "ui_field_cn", "target": "components_ui_field_tsx", "relation": "contains", "confidence": "EXTRACTED", "source_file": "components/ui/field.tsx", "source_location": "L157", "weight": 1.0, "_src": "components_ui_field_tsx", "_tgt": "ui_field_cn"}, {"source": "src_components_ui_label_tsx", "target": "ui_label_label", "relation": "contains", "confidence": "EXTRACTED", "source_file": "src/components/ui/label.tsx", "source_location": "L8", "weight": 1.0, "_src": "src_components_ui_label_tsx", "_tgt": "ui_label_label", "confidence_score": 1.0}, {"source": "ui_label_label", "target": "components_ui_label_tsx", "relation": "contains", "confidence": "EXTRACTED", "source_file": "components/ui/label.tsx", "source_location": "L8", "weight": 1.0, "_src": "components_ui_label_tsx", "_tgt": "ui_label_label"}, {"source": "src_components_ui_separator_tsx", "target": "ui_separator_separator", "relation": "contains", "confidence": "EXTRACTED", "source_file": "src/components/ui/separator.tsx", "source_location": "L8", "weight": 1.0, "_src": "src_components_ui_separator_tsx", "_tgt": "ui_separator_separator", "confidence_score": 1.0}, {"source": "ui_separator_separator", "target": "components_ui_separator_tsx", "relation": "contains", "confidence": "EXTRACTED", "source_file": "components/ui/separator.tsx", "source_location": "L8", "weight": 1.0, "_src": "components_ui_separator_tsx", "_tgt": "ui_separator_separator"}, {"source": "src_components_ui_button_tsx", "target": "ui_button_cn", "relation": "contains", "confidence": "EXTRACTED", "source_file": "src/components/ui/button.tsx", "source_location": "L59", "weight": 1.0, "_src": "src_components_ui_button_tsx", "_tgt": "ui_button_cn", "confidence_score": 1.0}, {"source": "ui_button_cn", "target": "components_ui_button_tsx", "relation": "contains", "confidence": "EXTRACTED", "source_file": "components/ui/button.tsx", "source_location": "L59", "weight": 1.0, "_src": "components_ui_button_tsx", "_tgt": "ui_button_cn"}, {"source": "src_components_ui_input_tsx", "target": "ui_input_input", "relation": "contains", "confidence": "EXTRACTED", "source_file": "src/components/ui/input.tsx", "source_location": "L5", "weight": 1.0, "_src": "src_components_ui_input_tsx", "_tgt": "ui_input_input", "confidence_score": 1.0}, {"source": "ui_input_input", "target": "components_ui_input_tsx", "relation": "contains", "confidence": "EXTRACTED", "source_file": "components/ui/input.tsx", "source_location": "L5", "weight": 1.0, "_src": "components_ui_input_tsx", "_tgt": "ui_input_input"}, {"source": "src_lib_utils_ts", "target": "lib_utils_cn", "relation": "contains", "confidence": "EXTRACTED", "source_file": "src/lib/utils.ts", "source_location": "L4", "weight": 1.0, "_src": "src_lib_utils_ts", "_tgt": "lib_utils_cn", "confidence_score": 1.0}], "hyperedges": [], "input_tokens": 0, "output_tokens": 0}
+{
+  "nodes": [
+    {
+      "id": "app_layout_tsx",
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_layout_rootlayout",
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L26"
+    },
+    {
+      "id": "app_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_auth_layout_tsx",
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "app/auth/layout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_layout_layout",
+      "label": "Layout()",
+      "file_type": "code",
+      "source_file": "app/auth/layout.tsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "app_auth_register_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/auth/register/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "register_page_registerpage",
+      "label": "RegisterPage()",
+      "file_type": "code",
+      "source_file": "app/auth/register/page.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "app_auth_login_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/auth/login/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "login_page_loginpage",
+      "label": "LoginPage()",
+      "file_type": "code",
+      "source_file": "app/auth/login/page.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "app_api_auth_all_route_ts",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/auth/[...all]/route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "features_auth_components_loginform_tsx",
+      "label": "LoginForm.tsx",
+      "file_type": "code",
+      "source_file": "features/auth/components/LoginForm.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_loginform_loginform",
+      "label": "LoginForm()",
+      "file_type": "code",
+      "source_file": "features/auth/components/LoginForm.tsx",
+      "source_location": "L9"
+    },
+    {
+      "id": "features_auth_components_registerform_tsx",
+      "label": "RegisterForm.tsx",
+      "file_type": "code",
+      "source_file": "features/auth/components/RegisterForm.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_registerform_registerform",
+      "label": "RegisterForm()",
+      "file_type": "code",
+      "source_file": "features/auth/components/RegisterForm.tsx",
+      "source_location": "L9"
+    },
+    {
+      "id": "features_auth_components_authlayout_tsx",
+      "label": "AuthLayout.tsx",
+      "file_type": "code",
+      "source_file": "features/auth/components/AuthLayout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "features_auth_hooks_useregisterform_ts",
+      "label": "useRegisterForm.ts",
+      "file_type": "code",
+      "source_file": "features/auth/hooks/useRegisterForm.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "hooks_useregisterform_useregisterform",
+      "label": "useRegisterForm()",
+      "file_type": "code",
+      "source_file": "features/auth/hooks/useRegisterForm.ts",
+      "source_location": "L11"
+    },
+    {
+      "id": "features_auth_hooks_useloginform_ts",
+      "label": "useLoginForm.ts",
+      "file_type": "code",
+      "source_file": "features/auth/hooks/useLoginForm.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "hooks_useloginform_useloginform",
+      "label": "useLoginForm()",
+      "file_type": "code",
+      "source_file": "features/auth/hooks/useLoginForm.ts",
+      "source_location": "L11"
+    },
+    {
+      "id": "features_auth_validation_index_ts",
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "features/auth/validation/index.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_ui_card_tsx",
+      "label": "card.tsx",
+      "file_type": "code",
+      "source_file": "components/ui/card.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "ui_card_cn",
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "components/ui/card.tsx",
+      "source_location": "L14"
+    },
+    {
+      "id": "ui_card_cardaction",
+      "label": "CardAction()",
+      "file_type": "code",
+      "source_file": "components/ui/card.tsx",
+      "source_location": "L59"
+    },
+    {
+      "id": "components_ui_field_tsx",
+      "label": "field.tsx",
+      "file_type": "code",
+      "source_file": "components/ui/field.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "ui_field_cn",
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "components/ui/field.tsx",
+      "source_location": "L14"
+    },
+    {
+      "id": "components_ui_label_tsx",
+      "label": "label.tsx",
+      "file_type": "code",
+      "source_file": "components/ui/label.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "ui_label_label",
+      "label": "Label()",
+      "file_type": "code",
+      "source_file": "components/ui/label.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "components_ui_sonner_tsx",
+      "label": "sonner.tsx",
+      "file_type": "code",
+      "source_file": "components/ui/sonner.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_ui_separator_tsx",
+      "label": "separator.tsx",
+      "file_type": "code",
+      "source_file": "components/ui/separator.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "ui_separator_separator",
+      "label": "Separator()",
+      "file_type": "code",
+      "source_file": "components/ui/separator.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "components_ui_button_tsx",
+      "label": "button.tsx",
+      "file_type": "code",
+      "source_file": "components/ui/button.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "ui_button_cn",
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "components/ui/button.tsx",
+      "source_location": "L59"
+    },
+    {
+      "id": "components_ui_input_tsx",
+      "label": "input.tsx",
+      "file_type": "code",
+      "source_file": "components/ui/input.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "ui_input_input",
+      "label": "Input()",
+      "file_type": "code",
+      "source_file": "components/ui/input.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "lib_prisma_ts",
+      "label": "prisma.ts",
+      "file_type": "code",
+      "source_file": "lib/prisma.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_utils_ts",
+      "label": "utils.ts",
+      "file_type": "code",
+      "source_file": "lib/utils.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_utils_cn",
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "lib/utils.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "lib_auth_ts",
+      "label": "auth.ts",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_auth_client_ts",
+      "label": "auth-client.ts",
+      "file_type": "code",
+      "source_file": "lib/auth-client.ts",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "app_layout_tsx",
+      "target": "next",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_tsx",
+      "target": "google",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_components_ui_sonner",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_lib_utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_app_globals_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_tsx",
+      "target": "app_layout_rootlayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "image",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_auth_layout_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/auth/layout.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_auth_layout_tsx",
+      "target": "auth_layout_layout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/auth/layout.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "app_auth_register_page_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_features_auth_components_authlayout",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/auth/register/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_auth_register_page_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_features_auth_components_registerform",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/auth/register/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_auth_register_page_tsx",
+      "target": "register_page_registerpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/auth/register/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_auth_login_page_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_features_auth_components_authlayout",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/auth/login/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_auth_login_page_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_features_auth_components_loginform",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/auth/login/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_auth_login_page_tsx",
+      "target": "login_page_loginpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/auth/login/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_auth_all_route_ts",
+      "target": "next_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/[...all]/route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_auth_all_route_ts",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_lib_auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/[...all]/route.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_components_loginform_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_components_ui_button",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/components/LoginForm.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_components_loginform_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_components_ui_field",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/components/LoginForm.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_components_loginform_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_components_ui_input",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/components/LoginForm.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_components_loginform_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_features_auth_hooks_useloginform",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/components/LoginForm.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_components_loginform_tsx",
+      "target": "components_loginform_loginform",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/components/LoginForm.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_components_registerform_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_components_ui_button",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/components/RegisterForm.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_components_registerform_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_components_ui_field",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/components/RegisterForm.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_components_registerform_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_components_ui_input",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/components/RegisterForm.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_components_registerform_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_features_auth_hooks_useregisterform",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/components/RegisterForm.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_components_registerform_tsx",
+      "target": "components_registerform_registerform",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/components/RegisterForm.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_components_authlayout_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/components/AuthLayout.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_components_authlayout_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_components_ui_card",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/components/AuthLayout.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_hooks_useregisterform_ts",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/hooks/useRegisterForm.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_hooks_useregisterform_ts",
+      "target": "react_form",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/hooks/useRegisterForm.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_hooks_useregisterform_ts",
+      "target": "sonner",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/hooks/useRegisterForm.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_hooks_useregisterform_ts",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_lib_auth_client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/hooks/useRegisterForm.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_hooks_useregisterform_ts",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_features_auth_validation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/hooks/useRegisterForm.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_hooks_useregisterform_ts",
+      "target": "hooks_useregisterform_useregisterform",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/hooks/useRegisterForm.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_hooks_useloginform_ts",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/hooks/useLoginForm.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_hooks_useloginform_ts",
+      "target": "react_form",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/hooks/useLoginForm.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_hooks_useloginform_ts",
+      "target": "sonner",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/hooks/useLoginForm.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_hooks_useloginform_ts",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_lib_auth_client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/hooks/useLoginForm.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_hooks_useloginform_ts",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_features_auth_validation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/hooks/useLoginForm.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_hooks_useloginform_ts",
+      "target": "hooks_useloginform_useloginform",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/hooks/useLoginForm.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "features_auth_validation_index_ts",
+      "target": "zod",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "features/auth/validation/index.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_card_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/card.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_card_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_lib_utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/card.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_card_tsx",
+      "target": "ui_card_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/card.tsx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_card_tsx",
+      "target": "ui_card_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/card.tsx",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_card_tsx",
+      "target": "ui_card_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/card.tsx",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_card_tsx",
+      "target": "ui_card_cardaction",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/card.tsx",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_field_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/field.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_field_tsx",
+      "target": "class_variance_authority",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/field.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_field_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_lib_utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/field.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_field_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_components_ui_label",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/field.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_field_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_components_ui_separator",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/field.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_field_tsx",
+      "target": "ui_field_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/field.tsx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_field_tsx",
+      "target": "ui_field_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/field.tsx",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_field_tsx",
+      "target": "ui_field_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/field.tsx",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_field_tsx",
+      "target": "ui_field_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/field.tsx",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_field_tsx",
+      "target": "ui_field_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/field.tsx",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_field_tsx",
+      "target": "ui_field_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/field.tsx",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_field_tsx",
+      "target": "ui_field_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/field.tsx",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_field_tsx",
+      "target": "ui_field_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/field.tsx",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_label_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/label.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_label_tsx",
+      "target": "radix_ui",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/label.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_label_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_lib_utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/label.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_label_tsx",
+      "target": "ui_label_label",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/label.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_sonner_tsx",
+      "target": "next_themes",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/sonner.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_sonner_tsx",
+      "target": "sonner",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/sonner.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_sonner_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/sonner.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_separator_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/separator.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_separator_tsx",
+      "target": "radix_ui",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/separator.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_separator_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_lib_utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/separator.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_separator_tsx",
+      "target": "ui_separator_separator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/separator.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_button_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/button.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_button_tsx",
+      "target": "class_variance_authority",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/button.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_button_tsx",
+      "target": "radix_ui",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/button.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_button_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_lib_utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/button.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_button_tsx",
+      "target": "ui_button_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/button.tsx",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_input_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/input.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_input_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_lib_utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/input.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_ui_input_tsx",
+      "target": "ui_input_input",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/input.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_prisma_ts",
+      "target": "adapter_pg",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/prisma.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_prisma_ts",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_generated_prisma_client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/prisma.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_utils_ts",
+      "target": "clsx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/utils.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_utils_ts",
+      "target": "tailwind_merge",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/utils.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_utils_ts",
+      "target": "lib_utils_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/utils.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_auth_ts",
+      "target": "prisma",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_auth_ts",
+      "target": "minimal",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_auth_ts",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_lib_prisma",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_auth_client_ts",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth-client.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "components_loginform_loginform",
+      "target": "hooks_useloginform_useloginform",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "features/auth/components/LoginForm.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "components_registerform_registerform",
+      "target": "hooks_useregisterform_useregisterform",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "features/auth/components/RegisterForm.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

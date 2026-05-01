@@ -15,6 +15,13 @@
       "source_location": "L26"
     },
     {
+      "id": "app_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/page.tsx",
+      "source_location": "L1"
+    },
+    {
       "id": "app_auth_layout_tsx",
       "label": "layout.tsx",
       "file_type": "code",
@@ -55,6 +62,13 @@
       "file_type": "code",
       "source_file": "app/auth/login/page.tsx",
       "source_location": "L4"
+    },
+    {
+      "id": "app_api_auth_all_route_ts",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/auth/[...all]/route.ts",
+      "source_location": "L1"
     },
     {
       "id": "features_auth_components_loginform_tsx",
@@ -223,6 +237,41 @@
       "file_type": "code",
       "source_file": "components/ui/input.tsx",
       "source_location": "L5"
+    },
+    {
+      "id": "lib_prisma_ts",
+      "label": "prisma.ts",
+      "file_type": "code",
+      "source_file": "lib/prisma.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_utils_ts",
+      "label": "utils.ts",
+      "file_type": "code",
+      "source_file": "lib/utils.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_utils_cn",
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "lib/utils.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "lib_auth_ts",
+      "label": "auth.ts",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_auth_client_ts",
+      "label": "auth-client.ts",
+      "file_type": "code",
+      "source_file": "lib/auth-client.ts",
+      "source_location": "L1"
     }
   ],
   "edges": [
@@ -278,6 +327,15 @@
       "confidence": "EXTRACTED",
       "source_file": "app/layout.tsx",
       "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_tsx",
+      "target": "image",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L1",
       "weight": 1.0
     },
     {
@@ -350,6 +408,24 @@
       "confidence": "EXTRACTED",
       "source_file": "app/auth/login/page.tsx",
       "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_auth_all_route_ts",
+      "target": "next_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/[...all]/route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_auth_all_route_ts",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_lib_auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/[...all]/route.ts",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -917,6 +993,87 @@
       "confidence": "EXTRACTED",
       "source_file": "components/ui/input.tsx",
       "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_prisma_ts",
+      "target": "adapter_pg",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/prisma.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_prisma_ts",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_generated_prisma_client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/prisma.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_utils_ts",
+      "target": "clsx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/utils.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_utils_ts",
+      "target": "tailwind_merge",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/utils.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_utils_ts",
+      "target": "lib_utils_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/utils.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_auth_ts",
+      "target": "prisma",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_auth_ts",
+      "target": "minimal",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_auth_ts",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_lib_prisma",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_auth_client_ts",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth-client.ts",
+      "source_location": "L1",
       "weight": 1.0
     },
     {
