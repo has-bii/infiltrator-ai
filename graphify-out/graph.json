@@ -4,49 +4,17 @@
   "graph": {
     "hyperedges": [
       {
-        "id": "better_auth_schema_models",
-        "label": "Better-Auth Database Schema",
+        "id": "dev_hot_reload_prisma_singleton",
+        "label": "Dev Hot-Reload Prisma Singleton Pattern",
         "nodes": [
-          "prisma_schema_user_model",
-          "prisma_schema_session_model",
-          "prisma_schema_account_model",
-          "prisma_schema_verification_model"
+          "prisma_default_export",
+          "prisma_adapter",
+          "prisma_globalforprisma"
         ],
-        "relation": "form",
-        "confidence": "INFERRED",
-        "confidence_score": 0.9,
-        "source_file": "CLAUDE.md"
-      },
-      {
-        "id": "user_owned_relations",
-        "label": "User-Owned Entities with Cascade Delete",
-        "nodes": [
-          "prisma_schema_user_model",
-          "prisma_schema_session_model",
-          "prisma_schema_account_model",
-          "prisma_schema_cascade_delete_session",
-          "prisma_schema_cascade_delete_account"
-        ],
-        "relation": "form",
+        "relation": "participate_in",
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
-        "source_file": "src/generated/prisma/internal/class.ts"
-      },
-      {
-        "id": "prisma_client_entry_points",
-        "label": "Prisma Client Entry Points",
-        "nodes": [
-          "src_generated_prisma_client_prismaclient",
-          "src_generated_prisma_browser",
-          "prisma_schema_user_model",
-          "prisma_schema_session_model",
-          "prisma_schema_account_model",
-          "prisma_schema_verification_model"
-        ],
-        "relation": "form",
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "src/generated/prisma/client.ts"
+        "source_file": "src/lib/prisma.ts"
       },
       {
         "id": "auth_full_stack_auth",
@@ -60,19 +28,6 @@
         "confidence": "INFERRED",
         "confidence_score": 0.85,
         "source_file": "src/lib/auth.ts"
-      },
-      {
-        "id": "dev_hot_reload_prisma_singleton",
-        "label": "Dev Hot-Reload Prisma Singleton Pattern",
-        "nodes": [
-          "prisma_default_export",
-          "prisma_adapter",
-          "prisma_globalforprisma"
-        ],
-        "relation": "participate_in",
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "src/lib/prisma.ts"
       }
     ]
   },
@@ -83,7 +38,7 @@
       "source_file": "postcss.config.mjs",
       "source_location": "L1",
       "id": "postcss_config_mjs",
-      "community": 9,
+      "community": 7,
       "norm_label": "postcss.config.mjs"
     },
     {
@@ -92,17 +47,8 @@
       "source_file": "prisma.config.ts",
       "source_location": "L1",
       "id": "prisma_config_ts",
-      "community": 10,
+      "community": 8,
       "norm_label": "prisma.config.ts"
-    },
-    {
-      "label": "next-env.d.ts",
-      "file_type": "code",
-      "source_file": "next-env.d.ts",
-      "source_location": "L1",
-      "id": "next_env_d_ts",
-      "community": 11,
-      "norm_label": "next-env.d.ts"
     },
     {
       "label": "eslint.config.mjs",
@@ -110,7 +56,7 @@
       "source_file": "eslint.config.mjs",
       "source_location": "L1",
       "id": "eslint_config_mjs",
-      "community": 12,
+      "community": 9,
       "norm_label": "eslint.config.mjs"
     },
     {
@@ -119,134 +65,8 @@
       "source_file": "next.config.ts",
       "source_location": "L1",
       "id": "next_config_ts",
-      "community": 13,
+      "community": 10,
       "norm_label": "next.config.ts"
-    },
-    {
-      "label": "browser.ts",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/browser.ts",
-      "source_location": "L1",
-      "id": "src_generated_prisma_browser_ts",
-      "community": 14,
-      "norm_label": "browser.ts"
-    },
-    {
-      "label": "client.ts",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/client.ts",
-      "source_location": "L1",
-      "id": "src_generated_prisma_client_ts",
-      "community": 15,
-      "norm_label": "client.ts"
-    },
-    {
-      "label": "models.ts",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/models.ts",
-      "source_location": "L1",
-      "id": "src_generated_prisma_models_ts",
-      "community": 16,
-      "norm_label": "models.ts"
-    },
-    {
-      "label": "commonInputTypes.ts",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/commonInputTypes.ts",
-      "source_location": "L1",
-      "id": "src_generated_prisma_commoninputtypes_ts",
-      "community": 17,
-      "norm_label": "commoninputtypes.ts"
-    },
-    {
-      "label": "enums.ts",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/enums.ts",
-      "source_location": "L1",
-      "id": "src_generated_prisma_enums_ts",
-      "community": 18,
-      "norm_label": "enums.ts"
-    },
-    {
-      "label": "class.ts",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/internal/class.ts",
-      "source_location": "L1",
-      "id": "src_generated_prisma_internal_class_ts",
-      "community": 3,
-      "norm_label": "class.ts"
-    },
-    {
-      "label": "decodeBase64AsWasm()",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/internal/class.ts",
-      "source_location": "L41",
-      "id": "internal_class_decodebase64aswasm",
-      "community": 3,
-      "norm_label": "decodebase64aswasm()"
-    },
-    {
-      "label": "getPrismaClientClass()",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/internal/class.ts",
-      "source_location": "L232",
-      "id": "internal_class_getprismaclientclass",
-      "community": 3,
-      "norm_label": "getprismaclientclass()"
-    },
-    {
-      "label": "prismaNamespace.ts",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/internal/prismaNamespace.ts",
-      "source_location": "L1",
-      "id": "src_generated_prisma_internal_prismanamespace_ts",
-      "community": 19,
-      "norm_label": "prismanamespace.ts"
-    },
-    {
-      "label": "prismaNamespaceBrowser.ts",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/internal/prismaNamespaceBrowser.ts",
-      "source_location": "L1",
-      "id": "src_generated_prisma_internal_prismanamespacebrowser_ts",
-      "community": 20,
-      "norm_label": "prismanamespacebrowser.ts"
-    },
-    {
-      "label": "Account.ts",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/models/Account.ts",
-      "source_location": "L1",
-      "id": "src_generated_prisma_models_account_ts",
-      "community": 21,
-      "norm_label": "account.ts"
-    },
-    {
-      "label": "Session.ts",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/models/Session.ts",
-      "source_location": "L1",
-      "id": "src_generated_prisma_models_session_ts",
-      "community": 22,
-      "norm_label": "session.ts"
-    },
-    {
-      "label": "Verification.ts",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/models/Verification.ts",
-      "source_location": "L1",
-      "id": "src_generated_prisma_models_verification_ts",
-      "community": 23,
-      "norm_label": "verification.ts"
-    },
-    {
-      "label": "User.ts",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/models/User.ts",
-      "source_location": "L1",
-      "id": "src_generated_prisma_models_user_ts",
-      "community": 24,
-      "norm_label": "user.ts"
     },
     {
       "label": "layout.tsx",
@@ -254,7 +74,7 @@
       "source_file": "src/app/layout.tsx",
       "source_location": "L1",
       "id": "src_app_layout_tsx",
-      "community": 5,
+      "community": 2,
       "norm_label": "layout.tsx"
     },
     {
@@ -263,7 +83,7 @@
       "source_file": "src/app/layout.tsx",
       "source_location": "L25",
       "id": "app_layout_rootlayout",
-      "community": 5,
+      "community": 2,
       "norm_label": "rootlayout()"
     },
     {
@@ -272,7 +92,7 @@
       "source_file": "src/app/page.tsx",
       "source_location": "L1",
       "id": "src_app_page_tsx",
-      "community": 25,
+      "community": 11,
       "norm_label": "page.tsx"
     },
     {
@@ -281,7 +101,7 @@
       "source_file": "src/app/api/auth/[...all]/route.ts",
       "source_location": "L1",
       "id": "src_app_api_auth_all_route_ts",
-      "community": 26,
+      "community": 12,
       "norm_label": "route.ts"
     },
     {
@@ -290,7 +110,7 @@
       "source_file": "src/lib/prisma.ts",
       "source_location": "L1",
       "id": "src_lib_prisma_ts",
-      "community": 27,
+      "community": 13,
       "norm_label": "prisma.ts"
     },
     {
@@ -299,7 +119,7 @@
       "source_file": "src/lib/utils.ts",
       "source_location": "L1",
       "id": "src_lib_utils_ts",
-      "community": 6,
+      "community": 3,
       "norm_label": "utils.ts"
     },
     {
@@ -308,7 +128,7 @@
       "source_file": "src/lib/utils.ts",
       "source_location": "L4",
       "id": "lib_utils_cn",
-      "community": 6,
+      "community": 3,
       "norm_label": "cn()"
     },
     {
@@ -317,7 +137,7 @@
       "source_file": "src/lib/auth.ts",
       "source_location": "L1",
       "id": "src_lib_auth_ts",
-      "community": 28,
+      "community": 14,
       "norm_label": "auth.ts"
     },
     {
@@ -326,8 +146,47 @@
       "source_file": "src/lib/auth-client.ts",
       "source_location": "L1",
       "id": "src_lib_auth_client_ts",
-      "community": 29,
+      "community": 15,
       "norm_label": "auth-client.ts"
+    },
+    {
+      "label": "Tailwind CSS PostCSS Plugin",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": 3,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "postcss_config_tailwind_plugin",
+      "community": 16,
+      "norm_label": "tailwind css postcss plugin"
+    },
+    {
+      "label": "Prisma Configuration",
+      "file_type": "code",
+      "source_file": "prisma.config.ts",
+      "source_location": 6,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "prisma_config_defineconfig",
+      "community": 17,
+      "norm_label": "prisma configuration"
+    },
+    {
+      "label": "ESLint Configuration",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": 5,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "eslint_config_eslint",
+      "community": 18,
+      "norm_label": "eslint configuration"
     },
     {
       "label": "Next.js Configuration",
@@ -339,7 +198,7 @@
       "author": null,
       "contributor": null,
       "id": "next_config_nextconfig",
-      "community": 30,
+      "community": 19,
       "norm_label": "next.js configuration"
     },
     {
@@ -352,8 +211,21 @@
       "author": null,
       "contributor": null,
       "id": "src_app_layout_rootlayout",
-      "community": 4,
+      "community": 1,
       "norm_label": "rootlayout"
+    },
+    {
+      "label": "cn() Utility",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": 4,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "src_lib_utils_cn",
+      "community": 1,
+      "norm_label": "cn() utility"
     },
     {
       "label": "Home Page",
@@ -365,7 +237,7 @@
       "author": null,
       "contributor": null,
       "id": "src_app_page_home",
-      "community": 4,
+      "community": 1,
       "norm_label": "home page"
     },
     {
@@ -378,112 +250,8 @@
       "author": null,
       "contributor": null,
       "id": "src_app_api_auth_all_route_tonextjshandler",
-      "community": 0,
-      "norm_label": "auth api route handler"
-    },
-    {
-      "label": "Prisma Configuration",
-      "file_type": "code",
-      "source_file": "prisma.config.ts",
-      "source_location": 6,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "prisma_config_defineconfig",
-      "community": 31,
-      "norm_label": "prisma configuration"
-    },
-    {
-      "label": "User Database Model",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/models/User.ts",
-      "source_location": 19,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "prisma_schema_user_model",
-      "community": 0,
-      "norm_label": "user database model"
-    },
-    {
-      "label": "Session Database Model",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/models/Session.ts",
-      "source_location": 19,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "prisma_schema_session_model",
-      "community": 0,
-      "norm_label": "session database model"
-    },
-    {
-      "label": "Account Database Model",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/models/Account.ts",
-      "source_location": 19,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "prisma_schema_account_model",
-      "community": 2,
-      "norm_label": "account database model"
-    },
-    {
-      "label": "Verification Database Model",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/models/Verification.ts",
-      "source_location": 19,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "prisma_schema_verification_model",
-      "community": 0,
-      "norm_label": "verification database model"
-    },
-    {
-      "label": "PrismaClient",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/client.ts",
-      "source_location": 40,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_generated_prisma_client_prismaclient",
-      "community": 0,
-      "norm_label": "prismaclient"
-    },
-    {
-      "label": "Prisma Browser Entry Point",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/browser.ts",
-      "source_location": 1,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_generated_prisma_browser",
-      "community": 0,
-      "norm_label": "prisma browser entry point"
-    },
-    {
-      "label": "cn() Utility",
-      "file_type": "code",
-      "source_file": "src/app/layout.tsx",
-      "source_location": 4,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "src_lib_utils_cn",
       "community": 4,
-      "norm_label": "cn() utility"
+      "norm_label": "auth api route handler"
     },
     {
       "label": "Auth Server Instance",
@@ -495,138 +263,8 @@
       "author": null,
       "contributor": null,
       "id": "src_lib_auth_auth",
-      "community": 0,
+      "community": 4,
       "norm_label": "auth server instance"
-    },
-    {
-      "label": "Tailwind CSS PostCSS Plugin",
-      "file_type": "code",
-      "source_file": "postcss.config.mjs",
-      "source_location": 3,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "postcss_config_tailwind_plugin",
-      "community": 32,
-      "norm_label": "tailwind css postcss plugin"
-    },
-    {
-      "label": "ESLint Configuration",
-      "file_type": "code",
-      "source_file": "eslint.config.mjs",
-      "source_location": 5,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "eslint_config_eslint",
-      "community": 33,
-      "norm_label": "eslint configuration"
-    },
-    {
-      "label": "pnpm Workspace Config",
-      "file_type": "code",
-      "source_file": "pnpm-workspace.yaml",
-      "source_location": 1,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "pnpm_workspace",
-      "community": 34,
-      "norm_label": "pnpm workspace config"
-    },
-    {
-      "label": "User Email Unique Constraint",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/models/User.ts",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "prisma_schema_user_email_unique",
-      "community": 0,
-      "norm_label": "user email unique constraint"
-    },
-    {
-      "label": "Session Token Unique Constraint",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/models/Session.ts",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "prisma_schema_session_token_unique",
-      "community": 0,
-      "norm_label": "session token unique constraint"
-    },
-    {
-      "label": "Session User Foreign Key",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/models/Session.ts",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "prisma_schema_session_user_fk",
-      "community": 0,
-      "norm_label": "session user foreign key"
-    },
-    {
-      "label": "Account User Foreign Key",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/models/Account.ts",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "prisma_schema_account_user_fk",
-      "community": 2,
-      "norm_label": "account user foreign key"
-    },
-    {
-      "label": "Account Password Field",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/models/Account.ts",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "prisma_schema_account_password",
-      "community": 2,
-      "norm_label": "account password field"
-    },
-    {
-      "label": "Session Cascade Delete",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/models/Session.ts",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "prisma_schema_cascade_delete_session",
-      "community": 0,
-      "norm_label": "session cascade delete"
-    },
-    {
-      "label": "Account Cascade Delete",
-      "file_type": "code",
-      "source_file": "src/generated/prisma/models/Account.ts",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "prisma_schema_cascade_delete_account",
-      "community": 2,
-      "norm_label": "account cascade delete"
     },
     {
       "label": "Prisma Singleton",
@@ -638,7 +276,7 @@
       "author": null,
       "contributor": null,
       "id": "prisma_default_export",
-      "community": 1,
+      "community": 0,
       "norm_label": "prisma singleton"
     },
     {
@@ -651,7 +289,7 @@
       "author": null,
       "contributor": null,
       "id": "prisma_adapter",
-      "community": 1,
+      "community": 0,
       "norm_label": "prismapg adapter instance"
     },
     {
@@ -664,7 +302,7 @@
       "author": null,
       "contributor": null,
       "id": "prisma_globalforprisma",
-      "community": 1,
+      "community": 0,
       "norm_label": "global prisma cache"
     },
     {
@@ -677,7 +315,7 @@
       "author": null,
       "contributor": null,
       "id": "utils_cn",
-      "community": 35,
+      "community": 20,
       "norm_label": "cn() utility function"
     },
     {
@@ -690,7 +328,7 @@
       "author": null,
       "contributor": null,
       "id": "auth_auth",
-      "community": 1,
+      "community": 0,
       "norm_label": "betterauth server instance"
     },
     {
@@ -703,8 +341,21 @@
       "author": null,
       "contributor": null,
       "id": "authclient_authclient",
-      "community": 1,
+      "community": 0,
       "norm_label": "auth client"
+    },
+    {
+      "label": "pnpm Workspace Config",
+      "file_type": "code",
+      "source_file": "pnpm-workspace.yaml",
+      "source_location": 1,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "pnpm_workspace",
+      "community": 21,
+      "norm_label": "pnpm workspace config"
     },
     {
       "label": "File Document Icon",
@@ -716,7 +367,7 @@
       "author": null,
       "contributor": null,
       "id": "public_file_svg",
-      "community": 8,
+      "community": 6,
       "norm_label": "file document icon"
     },
     {
@@ -729,7 +380,7 @@
       "author": null,
       "contributor": null,
       "id": "public_vercel_svg",
-      "community": 7,
+      "community": 5,
       "norm_label": "vercel triangle logo"
     },
     {
@@ -742,7 +393,7 @@
       "author": null,
       "contributor": null,
       "id": "public_next_svg",
-      "community": 7,
+      "community": 5,
       "norm_label": "next.js wordmark logo"
     },
     {
@@ -755,7 +406,7 @@
       "author": null,
       "contributor": null,
       "id": "public_globe_svg",
-      "community": 36,
+      "community": 22,
       "norm_label": "globe icon"
     },
     {
@@ -768,35 +419,11 @@
       "author": null,
       "contributor": null,
       "id": "public_window_svg",
-      "community": 8,
+      "community": 6,
       "norm_label": "window browser icon"
     }
   ],
   "links": [
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/generated/prisma/internal/class.ts",
-      "source_location": "L41",
-      "weight": 1.0,
-      "_src": "src_generated_prisma_internal_class_ts",
-      "_tgt": "internal_class_decodebase64aswasm",
-      "source": "src_generated_prisma_internal_class_ts",
-      "target": "internal_class_decodebase64aswasm",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/generated/prisma/internal/class.ts",
-      "source_location": "L232",
-      "weight": 1.0,
-      "_src": "src_generated_prisma_internal_class_ts",
-      "_tgt": "internal_class_getprismaclientclass",
-      "source": "src_generated_prisma_internal_class_ts",
-      "target": "internal_class_getprismaclientclass",
-      "confidence_score": 1.0
-    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -858,306 +485,6 @@
       "target": "src_lib_auth_auth"
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/models/Session.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "prisma_schema_session_model",
-      "_tgt": "prisma_schema_user_model",
-      "source": "prisma_schema_user_model",
-      "target": "prisma_schema_session_model"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/models/Account.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "prisma_schema_account_model",
-      "_tgt": "prisma_schema_user_model",
-      "source": "prisma_schema_user_model",
-      "target": "prisma_schema_account_model"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/models/Session.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "prisma_schema_session_user_fk",
-      "_tgt": "prisma_schema_user_model",
-      "source": "prisma_schema_user_model",
-      "target": "prisma_schema_session_user_fk"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/models/Account.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "prisma_schema_account_user_fk",
-      "_tgt": "prisma_schema_user_model",
-      "source": "prisma_schema_user_model",
-      "target": "prisma_schema_account_user_fk"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/models/Session.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "prisma_schema_cascade_delete_session",
-      "_tgt": "prisma_schema_user_model",
-      "source": "prisma_schema_user_model",
-      "target": "prisma_schema_cascade_delete_session"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/models/Account.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "prisma_schema_cascade_delete_account",
-      "_tgt": "prisma_schema_user_model",
-      "source": "prisma_schema_user_model",
-      "target": "prisma_schema_cascade_delete_account"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/client.ts",
-      "source_location": 48,
-      "weight": 1.0,
-      "_src": "src_generated_prisma_client_prismaclient",
-      "_tgt": "prisma_schema_user_model",
-      "source": "prisma_schema_user_model",
-      "target": "src_generated_prisma_client_prismaclient"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/browser.ts",
-      "source_location": 24,
-      "weight": 1.0,
-      "_src": "src_generated_prisma_browser",
-      "_tgt": "prisma_schema_user_model",
-      "source": "prisma_schema_user_model",
-      "target": "src_generated_prisma_browser"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "src_lib_auth_auth",
-      "_tgt": "prisma_schema_user_model",
-      "source": "prisma_schema_user_model",
-      "target": "src_lib_auth_auth"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/models/User.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "prisma_schema_user_email_unique",
-      "_tgt": "prisma_schema_user_model",
-      "source": "prisma_schema_user_model",
-      "target": "prisma_schema_user_email_unique"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/models/Session.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "prisma_schema_session_model",
-      "_tgt": "prisma_schema_session_user_fk",
-      "source": "prisma_schema_session_model",
-      "target": "prisma_schema_session_user_fk"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/client.ts",
-      "source_location": 53,
-      "weight": 1.0,
-      "_src": "src_generated_prisma_client_prismaclient",
-      "_tgt": "prisma_schema_session_model",
-      "source": "prisma_schema_session_model",
-      "target": "src_generated_prisma_client_prismaclient"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/browser.ts",
-      "source_location": 29,
-      "weight": 1.0,
-      "_src": "src_generated_prisma_browser",
-      "_tgt": "prisma_schema_session_model",
-      "source": "prisma_schema_session_model",
-      "target": "src_generated_prisma_browser"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "src_lib_auth_auth",
-      "_tgt": "prisma_schema_session_model",
-      "source": "prisma_schema_session_model",
-      "target": "src_lib_auth_auth"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/models/Session.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "prisma_schema_session_model",
-      "_tgt": "prisma_schema_session_token_unique",
-      "source": "prisma_schema_session_model",
-      "target": "prisma_schema_session_token_unique"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/models/Session.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "prisma_schema_session_model",
-      "_tgt": "prisma_schema_cascade_delete_session",
-      "source": "prisma_schema_session_model",
-      "target": "prisma_schema_cascade_delete_session"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/models/Account.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "prisma_schema_account_model",
-      "_tgt": "prisma_schema_account_user_fk",
-      "source": "prisma_schema_account_model",
-      "target": "prisma_schema_account_user_fk"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/client.ts",
-      "source_location": 58,
-      "weight": 1.0,
-      "_src": "src_generated_prisma_client_prismaclient",
-      "_tgt": "prisma_schema_account_model",
-      "source": "prisma_schema_account_model",
-      "target": "src_generated_prisma_client_prismaclient"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/browser.ts",
-      "source_location": 34,
-      "weight": 1.0,
-      "_src": "src_generated_prisma_browser",
-      "_tgt": "prisma_schema_account_model",
-      "source": "prisma_schema_account_model",
-      "target": "src_generated_prisma_browser"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "src_lib_auth_auth",
-      "_tgt": "prisma_schema_account_model",
-      "source": "prisma_schema_account_model",
-      "target": "src_lib_auth_auth"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
-      "source_file": "src/generated/prisma/models/Account.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "prisma_schema_account_model",
-      "_tgt": "prisma_schema_account_password",
-      "source": "prisma_schema_account_model",
-      "target": "prisma_schema_account_password"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/models/Account.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "prisma_schema_account_model",
-      "_tgt": "prisma_schema_cascade_delete_account",
-      "source": "prisma_schema_account_model",
-      "target": "prisma_schema_cascade_delete_account"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/client.ts",
-      "source_location": 63,
-      "weight": 1.0,
-      "_src": "src_generated_prisma_client_prismaclient",
-      "_tgt": "prisma_schema_verification_model",
-      "source": "prisma_schema_verification_model",
-      "target": "src_generated_prisma_client_prismaclient"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/browser.ts",
-      "source_location": 39,
-      "weight": 1.0,
-      "_src": "src_generated_prisma_browser",
-      "_tgt": "prisma_schema_verification_model",
-      "source": "prisma_schema_verification_model",
-      "target": "src_generated_prisma_browser"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "src_lib_auth_auth",
-      "_tgt": "prisma_schema_verification_model",
-      "source": "prisma_schema_verification_model",
-      "target": "src_lib_auth_auth"
-    },
-    {
       "relation": "calls",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -1182,18 +509,6 @@
       "target": "auth_auth"
     },
     {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 0.7,
-      "source_file": "src/lib/auth.ts",
-      "source_location": null,
-      "weight": 0.7,
-      "_src": "auth_auth",
-      "_tgt": "prisma_adapter",
-      "source": "prisma_adapter",
-      "target": "auth_auth"
-    },
-    {
       "relation": "shares_data_with",
       "confidence": "INFERRED",
       "confidence_score": 0.85,
@@ -1204,6 +519,18 @@
       "_tgt": "prisma_globalforprisma",
       "source": "prisma_adapter",
       "target": "prisma_globalforprisma"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "src/lib/auth.ts",
+      "source_location": null,
+      "weight": 0.7,
+      "_src": "auth_auth",
+      "_tgt": "prisma_adapter",
+      "source": "prisma_adapter",
+      "target": "auth_auth"
     },
     {
       "relation": "conceptually_related_to",
@@ -1244,49 +571,17 @@
   ],
   "hyperedges": [
     {
-      "id": "better_auth_schema_models",
-      "label": "Better-Auth Database Schema",
+      "id": "dev_hot_reload_prisma_singleton",
+      "label": "Dev Hot-Reload Prisma Singleton Pattern",
       "nodes": [
-        "prisma_schema_user_model",
-        "prisma_schema_session_model",
-        "prisma_schema_account_model",
-        "prisma_schema_verification_model"
+        "prisma_default_export",
+        "prisma_adapter",
+        "prisma_globalforprisma"
       ],
-      "relation": "form",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
-      "source_file": "CLAUDE.md"
-    },
-    {
-      "id": "user_owned_relations",
-      "label": "User-Owned Entities with Cascade Delete",
-      "nodes": [
-        "prisma_schema_user_model",
-        "prisma_schema_session_model",
-        "prisma_schema_account_model",
-        "prisma_schema_cascade_delete_session",
-        "prisma_schema_cascade_delete_account"
-      ],
-      "relation": "form",
+      "relation": "participate_in",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/internal/class.ts"
-    },
-    {
-      "id": "prisma_client_entry_points",
-      "label": "Prisma Client Entry Points",
-      "nodes": [
-        "src_generated_prisma_client_prismaclient",
-        "src_generated_prisma_browser",
-        "prisma_schema_user_model",
-        "prisma_schema_session_model",
-        "prisma_schema_account_model",
-        "prisma_schema_verification_model"
-      ],
-      "relation": "form",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/generated/prisma/client.ts"
+      "source_file": "src/lib/prisma.ts"
     },
     {
       "id": "auth_full_stack_auth",
@@ -1300,19 +595,6 @@
       "confidence": "INFERRED",
       "confidence_score": 0.85,
       "source_file": "src/lib/auth.ts"
-    },
-    {
-      "id": "dev_hot_reload_prisma_singleton",
-      "label": "Dev Hot-Reload Prisma Singleton Pattern",
-      "nodes": [
-        "prisma_default_export",
-        "prisma_adapter",
-        "prisma_globalforprisma"
-      ],
-      "relation": "participate_in",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/lib/prisma.ts"
     }
   ]
 }

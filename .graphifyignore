@@ -1,0 +1,11 @@
+CLAUDE.md
+.claude/
+.agents/
+pnpm-lock.yaml
+.prettierrc
+node_modules/
+src/generated/
+next-env.d.ts
+.next/
+graphify-out/
+prisma/migrations/

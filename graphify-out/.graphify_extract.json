@@ -1,0 +1,695 @@
+{
+  "nodes": [
+    {
+      "id": "postcss_config_mjs",
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "prisma_config_ts",
+      "label": "prisma.config.ts",
+      "file_type": "code",
+      "source_file": "prisma.config.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "eslint_config_mjs",
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "next_config_ts",
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_layout_tsx",
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_layout_rootlayout",
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L25"
+    },
+    {
+      "id": "src_app_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_api_auth_all_route_ts",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src/app/api/auth/[...all]/route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_prisma_ts",
+      "label": "prisma.ts",
+      "file_type": "code",
+      "source_file": "src/lib/prisma.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_utils_ts",
+      "label": "utils.ts",
+      "file_type": "code",
+      "source_file": "src/lib/utils.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_utils_cn",
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "src/lib/utils.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_lib_auth_ts",
+      "label": "auth.ts",
+      "file_type": "code",
+      "source_file": "src/lib/auth.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_auth_client_ts",
+      "label": "auth-client.ts",
+      "file_type": "code",
+      "source_file": "src/lib/auth-client.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "postcss_config_tailwind_plugin",
+      "label": "Tailwind CSS PostCSS Plugin",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": 3,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "prisma_config_defineconfig",
+      "label": "Prisma Configuration",
+      "file_type": "code",
+      "source_file": "prisma.config.ts",
+      "source_location": 6,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "eslint_config_eslint",
+      "label": "ESLint Configuration",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": 5,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "next_config_nextconfig",
+      "label": "Next.js Configuration",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "src_app_layout_rootlayout",
+      "label": "RootLayout",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": 25,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "src_lib_utils_cn",
+      "label": "cn() Utility",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": 4,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "src_app_page_home",
+      "label": "Home Page",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": 3,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "src_app_api_auth_all_route_tonextjshandler",
+      "label": "Auth API Route Handler",
+      "file_type": "code",
+      "source_file": "src/app/api/auth/[...all]/route.ts",
+      "source_location": 5,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "src_lib_auth_auth",
+      "label": "Auth Server Instance",
+      "file_type": "code",
+      "source_file": "src/app/api/auth/[...all]/route.ts",
+      "source_location": 3,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "prisma_default_export",
+      "label": "Prisma Singleton",
+      "file_type": "code",
+      "source_file": "src/lib/prisma.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "prisma_adapter",
+      "label": "PrismaPg Adapter Instance",
+      "file_type": "code",
+      "source_file": "src/lib/prisma.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "prisma_globalforprisma",
+      "label": "Global Prisma Cache",
+      "file_type": "code",
+      "source_file": "src/lib/prisma.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "utils_cn",
+      "label": "cn() Utility Function",
+      "file_type": "code",
+      "source_file": "src/lib/utils.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "auth_auth",
+      "label": "betterAuth Server Instance",
+      "file_type": "code",
+      "source_file": "src/lib/auth.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "authclient_authclient",
+      "label": "Auth Client",
+      "file_type": "code",
+      "source_file": "src/lib/auth-client.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "pnpm_workspace",
+      "label": "pnpm Workspace Config",
+      "file_type": "code",
+      "source_file": "pnpm-workspace.yaml",
+      "source_location": 1,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_file_svg",
+      "label": "File Document Icon",
+      "file_type": "image",
+      "source_file": "public/file.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_vercel_svg",
+      "label": "Vercel Triangle Logo",
+      "file_type": "image",
+      "source_file": "public/vercel.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_next_svg",
+      "label": "Next.js Wordmark Logo",
+      "file_type": "image",
+      "source_file": "public/next.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_globe_svg",
+      "label": "Globe Icon",
+      "file_type": "image",
+      "source_file": "public/globe.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_window_svg",
+      "label": "Window Browser Icon",
+      "file_type": "image",
+      "source_file": "public/window.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "prisma_config_ts",
+      "target": "config",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "prisma.config.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "prisma_config_ts",
+      "target": "config",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "prisma.config.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "eslint_config_mjs",
+      "target": "core_web_vitals",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "eslint_config_mjs",
+      "target": "typescript",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "eslint_config_mjs",
+      "target": "config",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "next_config_ts",
+      "target": "next",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "next.config.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_layout_tsx",
+      "target": "next",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_layout_tsx",
+      "target": "google",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_layout_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_lib_utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_layout_tsx",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_app_globals_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_layout_tsx",
+      "target": "app_layout_rootlayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_page_tsx",
+      "target": "image",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_auth_all_route_ts",
+      "target": "next_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/auth/[...all]/route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_auth_all_route_ts",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_lib_auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/auth/[...all]/route.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_prisma_ts",
+      "target": "adapter_pg",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/prisma.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_prisma_ts",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_generated_prisma_client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/prisma.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_utils_ts",
+      "target": "clsx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/utils.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_utils_ts",
+      "target": "tailwind_merge",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/utils.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_utils_ts",
+      "target": "lib_utils_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/utils.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_auth_ts",
+      "target": "prisma",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/auth.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_auth_ts",
+      "target": "minimal",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/auth.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_auth_ts",
+      "target": "users_hasbii_desktop_projects_infiltrator_ai_src_lib_prisma",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/auth.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_auth_client_ts",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/auth-client.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "prisma_config_defineconfig",
+      "target": "prisma_schema",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "prisma.config.ts",
+      "source_location": 7,
+      "weight": 1.0
+    },
+    {
+      "source": "next_config_nextconfig",
+      "target": "react_compiler",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "next.config.ts",
+      "source_location": 4,
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_layout_rootlayout",
+      "target": "src_lib_utils_cn",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/layout.tsx",
+      "source_location": 33,
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_layout_rootlayout",
+      "target": "src_app_page_home",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/app/layout.tsx",
+      "source_location": 42,
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_auth_all_route_tonextjshandler",
+      "target": "src_lib_auth_auth",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/api/auth/[...all]/route.ts",
+      "source_location": 5,
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_auth_all_route_tonextjshandler",
+      "target": "tonextjshandler",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/api/auth/[...all]/route.ts",
+      "source_location": 5,
+      "weight": 1.0
+    },
+    {
+      "source": "prisma_default_export",
+      "target": "prisma_adapter",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/lib/prisma.ts",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "prisma_adapter",
+      "target": "prisma_globalforprisma",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/lib/prisma.ts",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "auth_auth",
+      "target": "prisma_default_export",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/lib/auth.ts",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "auth_auth",
+      "target": "prisma_adapter",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "src/lib/auth.ts",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "authclient_authclient",
+      "target": "auth_auth",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/auth-client.ts",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "public_file_svg",
+      "target": "public_window_svg",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "public/file.svg",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "public_vercel_svg",
+      "target": "public_next_svg",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "public/vercel.svg",
+      "source_location": null,
+      "weight": 0.9
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "dev_hot_reload_prisma_singleton",
+      "label": "Dev Hot-Reload Prisma Singleton Pattern",
+      "nodes": [
+        "prisma_default_export",
+        "prisma_adapter",
+        "prisma_globalforprisma"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/lib/prisma.ts"
+    },
+    {
+      "id": "auth_full_stack_auth",
+      "label": "Full-Stack Auth Layer",
+      "nodes": [
+        "auth_auth",
+        "authclient_authclient",
+        "prisma_default_export"
+      ],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/lib/auth.ts"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
