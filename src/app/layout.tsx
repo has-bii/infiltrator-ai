@@ -2,7 +2,9 @@ import type { Metadata } from "next"
 import { Geist, Geist_Mono, JetBrains_Mono } from "next/font/google"
 
 import { Toaster } from "@/components/ui/sonner"
+import { TooltipProvider } from "@/components/ui/tooltip"
 import { cn } from "@/lib/utils"
+import { Providers } from "@/providers"
 
 import "./globals.css"
 
@@ -41,8 +43,8 @@ export default function RootLayout({
       )}
     >
       <body className="flex min-h-full flex-col">
-        {children}
-        <Toaster />
+        <Providers>{children}</Providers>
+        <Toaster richColors />
       </body>
     </html>
   )

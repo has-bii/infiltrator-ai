@@ -1,7 +1,7 @@
 "use client"
 
-import { useRouter } from "next/navigation"
 import { useForm } from "@tanstack/react-form"
+import { useRouter } from "next/navigation"
 import { toast } from "sonner"
 
 import { authClient } from "@/lib/auth-client"
@@ -17,20 +17,21 @@ export function useLoginForm() {
       password: "",
     },
     validators: {
-      onChange: loginSchema,
+      onSubmit: loginSchema,
     },
-    onSubmit: async ({ value }) => {
+    onSubmit: async ({ value, formApi }) => {
       const { error } = await authClient.signIn.email({
         email: value.email,
         password: value.password,
       })
+      formApi.reset()
 
       if (error) {
         toast.error(error.message ?? "Login failed")
         return
       }
 
-      router.push("/")
+      router.push("/dashboard")
     },
   })
 }

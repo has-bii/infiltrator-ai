@@ -1,7 +1,7 @@
 "use client"
 
-import { useRouter } from "next/navigation"
 import { useForm } from "@tanstack/react-form"
+import { useRouter } from "next/navigation"
 import { toast } from "sonner"
 
 import { authClient } from "@/lib/auth-client"
@@ -19,7 +19,7 @@ export function useRegisterForm() {
       confirmPassword: "",
     },
     validators: {
-      onChange: registerSchema,
+      onSubmit: registerSchema,
     },
     onSubmit: async ({ value }) => {
       const { error } = await authClient.signUp.email({
