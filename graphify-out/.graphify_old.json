@@ -1,0 +1,613 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "id": "postcss_config_mjs",
+      "community": 13,
+      "norm_label": "postcss.config.mjs"
+    },
+    {
+      "label": "prisma.config.ts",
+      "file_type": "code",
+      "source_file": "prisma.config.ts",
+      "source_location": "L1",
+      "id": "prisma_config_ts",
+      "community": 14,
+      "norm_label": "prisma.config.ts"
+    },
+    {
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1",
+      "id": "eslint_config_mjs",
+      "community": 15,
+      "norm_label": "eslint.config.mjs"
+    },
+    {
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L1",
+      "id": "next_config_ts",
+      "community": 16,
+      "norm_label": "next.config.ts"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L1",
+      "id": "src_app_layout_tsx",
+      "community": 3,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L26",
+      "id": "app_layout_rootlayout",
+      "community": 3,
+      "norm_label": "rootlayout()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L1",
+      "id": "src_app_page_tsx",
+      "community": 17,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src/app/auth/layout.tsx",
+      "source_location": "L1",
+      "id": "src_app_auth_layout_tsx",
+      "community": 4,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "Layout()",
+      "file_type": "code",
+      "source_file": "src/app/auth/layout.tsx",
+      "source_location": "L7",
+      "id": "auth_layout_layout",
+      "community": 4,
+      "norm_label": "layout()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/auth/register/page.tsx",
+      "source_location": "L1",
+      "id": "src_app_auth_register_page_tsx",
+      "community": 5,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "RegisterPage()",
+      "file_type": "code",
+      "source_file": "src/app/auth/register/page.tsx",
+      "source_location": "L4",
+      "id": "register_page_registerpage",
+      "community": 5,
+      "norm_label": "registerpage()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/auth/login/page.tsx",
+      "source_location": "L1",
+      "id": "src_app_auth_login_page_tsx",
+      "community": 6,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "LoginPage()",
+      "file_type": "code",
+      "source_file": "src/app/auth/login/page.tsx",
+      "source_location": "L4",
+      "id": "login_page_loginpage",
+      "community": 6,
+      "norm_label": "loginpage()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src/app/api/auth/[...all]/route.ts",
+      "source_location": "L1",
+      "id": "src_app_api_auth_all_route_ts",
+      "community": 18,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "LoginForm.tsx",
+      "file_type": "code",
+      "source_file": "src/features/auth/components/LoginForm.tsx",
+      "source_location": "L1",
+      "id": "src_features_auth_components_loginform_tsx",
+      "community": 0,
+      "norm_label": "loginform.tsx"
+    },
+    {
+      "label": "LoginForm()",
+      "file_type": "code",
+      "source_file": "src/features/auth/components/LoginForm.tsx",
+      "source_location": "L9",
+      "id": "components_loginform_loginform",
+      "community": 0,
+      "norm_label": "loginform()"
+    },
+    {
+      "label": "RegisterForm.tsx",
+      "file_type": "code",
+      "source_file": "src/features/auth/components/RegisterForm.tsx",
+      "source_location": "L1",
+      "id": "src_features_auth_components_registerform_tsx",
+      "community": 1,
+      "norm_label": "registerform.tsx"
+    },
+    {
+      "label": "RegisterForm()",
+      "file_type": "code",
+      "source_file": "src/features/auth/components/RegisterForm.tsx",
+      "source_location": "L9",
+      "id": "components_registerform_registerform",
+      "community": 1,
+      "norm_label": "registerform()"
+    },
+    {
+      "label": "AuthLayout.tsx",
+      "file_type": "code",
+      "source_file": "src/features/auth/components/AuthLayout.tsx",
+      "source_location": "L1",
+      "id": "src_features_auth_components_authlayout_tsx",
+      "community": 19,
+      "norm_label": "authlayout.tsx"
+    },
+    {
+      "label": "useRegisterForm.ts",
+      "file_type": "code",
+      "source_file": "src/features/auth/hooks/useRegisterForm.ts",
+      "source_location": "L1",
+      "id": "src_features_auth_hooks_useregisterform_ts",
+      "community": 1,
+      "norm_label": "useregisterform.ts"
+    },
+    {
+      "label": "useRegisterForm()",
+      "file_type": "code",
+      "source_file": "src/features/auth/hooks/useRegisterForm.ts",
+      "source_location": "L11",
+      "id": "hooks_useregisterform_useregisterform",
+      "community": 1,
+      "norm_label": "useregisterform()"
+    },
+    {
+      "label": "useLoginForm.ts",
+      "file_type": "code",
+      "source_file": "src/features/auth/hooks/useLoginForm.ts",
+      "source_location": "L1",
+      "id": "src_features_auth_hooks_useloginform_ts",
+      "community": 0,
+      "norm_label": "useloginform.ts"
+    },
+    {
+      "label": "useLoginForm()",
+      "file_type": "code",
+      "source_file": "src/features/auth/hooks/useLoginForm.ts",
+      "source_location": "L11",
+      "id": "hooks_useloginform_useloginform",
+      "community": 0,
+      "norm_label": "useloginform()"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "src/features/auth/validation/index.ts",
+      "source_location": "L1",
+      "id": "src_features_auth_validation_index_ts",
+      "community": 20,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "card.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/card.tsx",
+      "source_location": "L1",
+      "id": "src_components_ui_card_tsx",
+      "community": 2,
+      "norm_label": "card.tsx"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "src/components/ui/card.tsx",
+      "source_location": "L14",
+      "id": "ui_card_cn",
+      "community": 2,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "CardAction()",
+      "file_type": "code",
+      "source_file": "src/components/ui/card.tsx",
+      "source_location": "L59",
+      "id": "ui_card_cardaction",
+      "community": 2,
+      "norm_label": "cardaction()"
+    },
+    {
+      "label": "field.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/field.tsx",
+      "source_location": "L1",
+      "id": "src_components_ui_field_tsx",
+      "community": 7,
+      "norm_label": "field.tsx"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "src/components/ui/field.tsx",
+      "source_location": "L14",
+      "id": "ui_field_cn",
+      "community": 7,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "label.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/label.tsx",
+      "source_location": "L1",
+      "id": "src_components_ui_label_tsx",
+      "community": 8,
+      "norm_label": "label.tsx"
+    },
+    {
+      "label": "Label()",
+      "file_type": "code",
+      "source_file": "src/components/ui/label.tsx",
+      "source_location": "L8",
+      "id": "ui_label_label",
+      "community": 8,
+      "norm_label": "label()"
+    },
+    {
+      "label": "sonner.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/sonner.tsx",
+      "source_location": "L1",
+      "id": "src_components_ui_sonner_tsx",
+      "community": 21,
+      "norm_label": "sonner.tsx"
+    },
+    {
+      "label": "separator.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/separator.tsx",
+      "source_location": "L1",
+      "id": "src_components_ui_separator_tsx",
+      "community": 9,
+      "norm_label": "separator.tsx"
+    },
+    {
+      "label": "Separator()",
+      "file_type": "code",
+      "source_file": "src/components/ui/separator.tsx",
+      "source_location": "L8",
+      "id": "ui_separator_separator",
+      "community": 9,
+      "norm_label": "separator()"
+    },
+    {
+      "label": "button.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L1",
+      "id": "src_components_ui_button_tsx",
+      "community": 10,
+      "norm_label": "button.tsx"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L59",
+      "id": "ui_button_cn",
+      "community": 10,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "input.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/input.tsx",
+      "source_location": "L1",
+      "id": "src_components_ui_input_tsx",
+      "community": 11,
+      "norm_label": "input.tsx"
+    },
+    {
+      "label": "Input()",
+      "file_type": "code",
+      "source_file": "src/components/ui/input.tsx",
+      "source_location": "L5",
+      "id": "ui_input_input",
+      "community": 11,
+      "norm_label": "input()"
+    },
+    {
+      "label": "prisma.ts",
+      "file_type": "code",
+      "source_file": "src/lib/prisma.ts",
+      "source_location": "L1",
+      "id": "src_lib_prisma_ts",
+      "community": 22,
+      "norm_label": "prisma.ts"
+    },
+    {
+      "label": "utils.ts",
+      "file_type": "code",
+      "source_file": "src/lib/utils.ts",
+      "source_location": "L1",
+      "id": "src_lib_utils_ts",
+      "community": 12,
+      "norm_label": "utils.ts"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "src/lib/utils.ts",
+      "source_location": "L4",
+      "id": "lib_utils_cn",
+      "community": 12,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "auth.ts",
+      "file_type": "code",
+      "source_file": "src/lib/auth.ts",
+      "source_location": "L1",
+      "id": "src_lib_auth_ts",
+      "community": 23,
+      "norm_label": "auth.ts"
+    },
+    {
+      "label": "auth-client.ts",
+      "file_type": "code",
+      "source_file": "src/lib/auth-client.ts",
+      "source_location": "L1",
+      "id": "src_lib_auth_client_ts",
+      "community": 24,
+      "norm_label": "auth-client.ts"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_src": "src_app_layout_tsx",
+      "_tgt": "app_layout_rootlayout",
+      "source": "src_app_layout_tsx",
+      "target": "app_layout_rootlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/auth/layout.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "src_app_auth_layout_tsx",
+      "_tgt": "auth_layout_layout",
+      "source": "src_app_auth_layout_tsx",
+      "target": "auth_layout_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/auth/register/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "src_app_auth_register_page_tsx",
+      "_tgt": "register_page_registerpage",
+      "source": "src_app_auth_register_page_tsx",
+      "target": "register_page_registerpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/auth/login/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "src_app_auth_login_page_tsx",
+      "_tgt": "login_page_loginpage",
+      "source": "src_app_auth_login_page_tsx",
+      "target": "login_page_loginpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/auth/components/LoginForm.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_src": "src_features_auth_components_loginform_tsx",
+      "_tgt": "components_loginform_loginform",
+      "source": "src_features_auth_components_loginform_tsx",
+      "target": "components_loginform_loginform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/features/auth/components/LoginForm.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "components_loginform_loginform",
+      "_tgt": "hooks_useloginform_useloginform",
+      "source": "components_loginform_loginform",
+      "target": "hooks_useloginform_useloginform"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/auth/components/RegisterForm.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_src": "src_features_auth_components_registerform_tsx",
+      "_tgt": "components_registerform_registerform",
+      "source": "src_features_auth_components_registerform_tsx",
+      "target": "components_registerform_registerform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/features/auth/components/RegisterForm.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "components_registerform_registerform",
+      "_tgt": "hooks_useregisterform_useregisterform",
+      "source": "components_registerform_registerform",
+      "target": "hooks_useregisterform_useregisterform"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/auth/hooks/useRegisterForm.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_src": "src_features_auth_hooks_useregisterform_ts",
+      "_tgt": "hooks_useregisterform_useregisterform",
+      "source": "src_features_auth_hooks_useregisterform_ts",
+      "target": "hooks_useregisterform_useregisterform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/auth/hooks/useLoginForm.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_src": "src_features_auth_hooks_useloginform_ts",
+      "_tgt": "hooks_useloginform_useloginform",
+      "source": "src_features_auth_hooks_useloginform_ts",
+      "target": "hooks_useloginform_useloginform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/card.tsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_src": "src_components_ui_card_tsx",
+      "_tgt": "ui_card_cn",
+      "source": "src_components_ui_card_tsx",
+      "target": "ui_card_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/card.tsx",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_src": "src_components_ui_card_tsx",
+      "_tgt": "ui_card_cardaction",
+      "source": "src_components_ui_card_tsx",
+      "target": "ui_card_cardaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/field.tsx",
+      "source_location": "L157",
+      "weight": 1.0,
+      "_src": "src_components_ui_field_tsx",
+      "_tgt": "ui_field_cn",
+      "source": "src_components_ui_field_tsx",
+      "target": "ui_field_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/label.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "src_components_ui_label_tsx",
+      "_tgt": "ui_label_label",
+      "source": "src_components_ui_label_tsx",
+      "target": "ui_label_label",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/separator.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "src_components_ui_separator_tsx",
+      "_tgt": "ui_separator_separator",
+      "source": "src_components_ui_separator_tsx",
+      "target": "ui_separator_separator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_src": "src_components_ui_button_tsx",
+      "_tgt": "ui_button_cn",
+      "source": "src_components_ui_button_tsx",
+      "target": "ui_button_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/input.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "src_components_ui_input_tsx",
+      "_tgt": "ui_input_input",
+      "source": "src_components_ui_input_tsx",
+      "target": "ui_input_input",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/utils.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "src_lib_utils_ts",
+      "_tgt": "lib_utils_cn",
+      "source": "src_lib_utils_ts",
+      "target": "lib_utils_cn",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

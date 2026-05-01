@@ -1,0 +1,233 @@
+{
+  "communities": {
+    "0": [
+      "components_registerform_registerform",
+      "features_auth_components_registerform_tsx",
+      "features_auth_hooks_useregisterform_ts",
+      "hooks_useregisterform_useregisterform",
+      "src_features_auth_components_registerform_tsx",
+      "src_features_auth_hooks_useregisterform_ts"
+    ],
+    "1": [
+      "components_loginform_loginform",
+      "features_auth_components_loginform_tsx",
+      "features_auth_hooks_useloginform_ts",
+      "hooks_useloginform_useloginform",
+      "src_features_auth_components_loginform_tsx",
+      "src_features_auth_hooks_useloginform_ts"
+    ],
+    "2": [
+      "components_ui_card_tsx",
+      "src_components_ui_card_tsx",
+      "ui_card_cardaction",
+      "ui_card_cn"
+    ],
+    "3": [
+      "app_layout_rootlayout",
+      "app_layout_tsx",
+      "src_app_layout_tsx"
+    ],
+    "4": [
+      "app_auth_layout_tsx",
+      "auth_layout_layout",
+      "src_app_auth_layout_tsx"
+    ],
+    "5": [
+      "app_auth_register_page_tsx",
+      "register_page_registerpage",
+      "src_app_auth_register_page_tsx"
+    ],
+    "6": [
+      "app_auth_login_page_tsx",
+      "login_page_loginpage",
+      "src_app_auth_login_page_tsx"
+    ],
+    "7": [
+      "components_ui_field_tsx",
+      "src_components_ui_field_tsx",
+      "ui_field_cn"
+    ],
+    "8": [
+      "components_ui_label_tsx",
+      "src_components_ui_label_tsx",
+      "ui_label_label"
+    ],
+    "9": [
+      "components_ui_separator_tsx",
+      "src_components_ui_separator_tsx",
+      "ui_separator_separator"
+    ],
+    "10": [
+      "components_ui_button_tsx",
+      "src_components_ui_button_tsx",
+      "ui_button_cn"
+    ],
+    "11": [
+      "components_ui_input_tsx",
+      "src_components_ui_input_tsx",
+      "ui_input_input"
+    ],
+    "12": [
+      "lib_utils_cn",
+      "src_lib_utils_ts"
+    ],
+    "13": [
+      "postcss_config_mjs"
+    ],
+    "14": [
+      "prisma_config_ts"
+    ],
+    "15": [
+      "eslint_config_mjs"
+    ],
+    "16": [
+      "next_config_ts"
+    ],
+    "17": [
+      "src_app_page_tsx"
+    ],
+    "18": [
+      "src_app_api_auth_all_route_ts"
+    ],
+    "19": [
+      "src_features_auth_components_authlayout_tsx"
+    ],
+    "20": [
+      "src_features_auth_validation_index_ts"
+    ],
+    "21": [
+      "src_components_ui_sonner_tsx"
+    ],
+    "22": [
+      "src_lib_prisma_ts"
+    ],
+    "23": [
+      "src_lib_auth_ts"
+    ],
+    "24": [
+      "src_lib_auth_client_ts"
+    ],
+    "25": [
+      "features_auth_components_authlayout_tsx"
+    ],
+    "26": [
+      "features_auth_validation_index_ts"
+    ],
+    "27": [
+      "components_ui_sonner_tsx"
+    ]
+  },
+  "cohesion": {
+    "0": 0.33,
+    "1": 0.33,
+    "2": 0.67,
+    "3": 0.67,
+    "4": 0.67,
+    "5": 0.67,
+    "6": 0.67,
+    "7": 0.67,
+    "8": 0.67,
+    "9": 0.67,
+    "10": 0.67,
+    "11": 0.67,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0
+  },
+  "gods": [
+    {
+      "id": "components_loginform_loginform",
+      "label": "LoginForm()",
+      "degree": 3
+    },
+    {
+      "id": "components_registerform_registerform",
+      "label": "RegisterForm()",
+      "degree": 3
+    },
+    {
+      "id": "hooks_useregisterform_useregisterform",
+      "label": "useRegisterForm()",
+      "degree": 3
+    },
+    {
+      "id": "hooks_useloginform_useloginform",
+      "label": "useLoginForm()",
+      "degree": 3
+    },
+    {
+      "id": "app_layout_rootlayout",
+      "label": "RootLayout()",
+      "degree": 2
+    },
+    {
+      "id": "auth_layout_layout",
+      "label": "Layout()",
+      "degree": 2
+    },
+    {
+      "id": "register_page_registerpage",
+      "label": "RegisterPage()",
+      "degree": 2
+    },
+    {
+      "id": "login_page_loginpage",
+      "label": "LoginPage()",
+      "degree": 2
+    },
+    {
+      "id": "ui_card_cn",
+      "label": "cn()",
+      "degree": 2
+    },
+    {
+      "id": "ui_card_cardaction",
+      "label": "CardAction()",
+      "degree": 2
+    }
+  ],
+  "surprises": [
+    {
+      "source": "LoginForm()",
+      "target": "useLoginForm()",
+      "source_files": [
+        "features/auth/components/LoginForm.tsx",
+        "features/auth/hooks/useLoginForm.ts"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source"
+    },
+    {
+      "source": "RegisterForm()",
+      "target": "useRegisterForm()",
+      "source_files": [
+        "features/auth/components/RegisterForm.tsx",
+        "features/auth/hooks/useRegisterForm.ts"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source"
+    }
+  ],
+  "questions": [
+    {
+      "type": "no_signal",
+      "question": null,
+      "why": "Not enough signal to generate questions. This usually means the corpus has no AMBIGUOUS edges, no bridge nodes, no INFERRED relationships, and all communities are tightly cohesive. Add more files or run with --mode deep to extract richer edges."
+    }
+  ]
+}
