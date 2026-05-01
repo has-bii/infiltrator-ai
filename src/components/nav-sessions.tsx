@@ -1,13 +1,15 @@
 "use client"
 
-import { RiDeleteBinLine, RiFolderLine, RiMoreLine, RiShareForwardLine } from "@remixicon/react"
+import { RiDeleteBinLine, RiLoader4Fill, RiMoreLine } from "@remixicon/react"
+import { useQuery } from "@tanstack/react-query"
 import Link from "next/link"
+import { usePathname, useRouter } from "next/navigation"
+import { toast } from "sonner"
 
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import {
@@ -17,63 +19,83 @@ import {
   SidebarMenuAction,
   SidebarMenuButton,
   SidebarMenuItem,
-  useSidebar,
 } from "@/components/ui/sidebar"
+import { useDeleteChatSessionMutation } from "@/features/chat/mutations/useDeleteChatSessionMutation"
+import { getChatSessionsQueryOptions } from "@/features/chat/query/getChatSessionsQueryOptions"
 
-export interface SessionNavItem {
-  name: string
-  url: string
-}
+export function NavSessions() {
+  const { data: chatSessions, isLoading } = useQuery(
+    getChatSessionsQueryOptions({ params: { limit: 10 } }),
+  )
 
-export function NavSessions({ sessions }: { sessions: SessionNavItem[] }) {
-  const { isMobile } = useSidebar()
+  const pathname = usePathname()
+
+  const deleteChatSessionMutation = useDeleteChatSessionMutation()
+  const router = useRouter()
+
+  const handleDeleteChatSession = (id: string, isActive: boolean) => {
+    toast.promise(deleteChatSessionMutation.mutateAsync(id), {
+      loading: "Deleting chat session...",
+      success: () => {
+        if (isActive) {
+          router.push("/dashboard")
+        }
+        return "Chat session deleted successfully"
+      },
+      error: "Failed to delete chat session",
+    })
+  }
 
   return (
     <SidebarGroup className="group-data-[collapsible=icon]:hidden">
-      <SidebarGroupLabel>Projects</SidebarGroupLabel>
+      <SidebarGroupLabel>Recent Sessions</SidebarGroupLabel>
       <SidebarMenu>
-        {sessions.map((item) => (
-          <SidebarMenuItem key={item.name}>
-            <SidebarMenuButton asChild>
-              <Link href={item.url}>
-                <span>{item.name}</span>
-              </Link>
+        {isLoading && (
+          <SidebarMenuItem>
+            <SidebarMenuButton className="text-sidebar-foreground/70">
+              <RiLoader4Fill className="text-sidebar-foreground/70 animate-spin" />
+              <span>Loading...</span>
             </SidebarMenuButton>
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <SidebarMenuAction showOnHover className="aria-expanded:bg-muted">
-                  <RiMoreLine />
-                  <span className="sr-only">More</span>
-                </SidebarMenuAction>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent
-                className="w-48 rounded-lg"
-                side={isMobile ? "bottom" : "right"}
-                align={isMobile ? "end" : "start"}
-              >
-                <DropdownMenuItem>
-                  <RiFolderLine className="text-muted-foreground" />
-                  <span>View Project</span>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <RiShareForwardLine className="text-muted-foreground" />
-                  <span>Share Project</span>
-                </DropdownMenuItem>
-                <DropdownMenuSeparator />
-                <DropdownMenuItem>
-                  <RiDeleteBinLine className="text-muted-foreground" />
-                  <span>Delete Project</span>
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
           </SidebarMenuItem>
-        ))}
-        <SidebarMenuItem>
-          <SidebarMenuButton className="text-sidebar-foreground/70">
-            <RiMoreLine className="text-sidebar-foreground/70" />
-            <span>More</span>
-          </SidebarMenuButton>
-        </SidebarMenuItem>
+        )}
+
+        {!isLoading && !chatSessions?.length && (
+          <SidebarMenuItem>
+            <SidebarMenuButton className="text-sidebar-foreground/70">
+              <span>No chat sessions found</span>
+            </SidebarMenuButton>
+          </SidebarMenuItem>
+        )}
+
+        {chatSessions?.map((item) => {
+          const isActive = pathname === `/dashboard/chat/${item.id}`
+          return (
+            <SidebarMenuItem key={item.id}>
+              <SidebarMenuButton isActive={isActive} asChild>
+                <Link href={`/dashboard/chat/${item.id}`}>
+                  <span>{item.name}</span>
+                </Link>
+              </SidebarMenuButton>
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <SidebarMenuAction showOnHover className="aria-expanded:bg-muted">
+                    <RiMoreLine />
+                    <span className="sr-only">More</span>
+                  </SidebarMenuAction>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="w-48 rounded-lg" side="right" align="start">
+                  <DropdownMenuItem
+                    variant="destructive"
+                    onClick={() => handleDeleteChatSession(item.id, isActive)}
+                  >
+                    <RiDeleteBinLine className="text-muted-foreground" />
+                    <span>Delete Chat Session</span>
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </SidebarMenuItem>
+          )
+        })}
       </SidebarMenu>
     </SidebarGroup>
   )

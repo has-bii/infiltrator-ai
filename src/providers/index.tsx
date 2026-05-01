@@ -6,6 +6,8 @@ import React from "react"
 
 import { TooltipProvider } from "@/components/ui/tooltip"
 
+import { ThemeProvider } from "./theme-provider"
+
 type Props = { children: React.ReactNode }
 
 const queryClient = new QueryClient()
@@ -29,7 +31,16 @@ export function Providers({ children }: Props) {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <TooltipProvider>{children}</TooltipProvider>
+      <TooltipProvider>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </TooltipProvider>
       <ReactQueryDevtools />
     </QueryClientProvider>
   )

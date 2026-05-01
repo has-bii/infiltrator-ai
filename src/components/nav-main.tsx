@@ -1,11 +1,10 @@
 "use client"
 
-import { RiArrowRightSLine } from "@remixicon/react"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 
 import {
   SidebarGroup,
-  SidebarGroupLabel,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
@@ -18,12 +17,14 @@ export interface MainSidebarMenuItem {
 }
 
 export function NavMain({ items }: { items: MainSidebarMenuItem[] }) {
+  const pathname = usePathname()
+
   return (
     <SidebarGroup>
       <SidebarMenu>
         {items.map((item) => (
           <SidebarMenuItem key={item.title}>
-            <SidebarMenuButton asChild>
+            <SidebarMenuButton isActive={pathname === item.url} asChild>
               <Link href={item.url}>
                 {item.icon}
                 <span>{item.title}</span>

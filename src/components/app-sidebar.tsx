@@ -1,6 +1,6 @@
 "use client"
 
-import { RiChatAi4Fill, RiRobot3Fill } from "@remixicon/react"
+import { RiAddCircleFill, RiChatAi4Fill, RiRobot3Fill } from "@remixicon/react"
 import React from "react"
 
 import { MainSidebarMenuItem, NavMain } from "@/components/nav-main"
@@ -16,30 +16,26 @@ import {
   SidebarRail,
 } from "@/components/ui/sidebar"
 
-import { NavSessions, SessionNavItem } from "./nav-sessions"
+import { NavSessions } from "./nav-sessions"
+import { NavThemeToggle } from "./nav-theme-toggle"
 
 const navMainItems = [
   {
-    title: "Sessions",
+    title: "New Session",
     url: "/dashboard",
+    icon: <RiAddCircleFill />,
+  },
+  {
+    title: "Sessions",
+    url: "/dashboard/recent",
     icon: <RiChatAi4Fill />,
   },
 ] satisfies MainSidebarMenuItem[]
 
-const navSessionItems = [
-  {
-    name: "Session 1",
-    url: "#",
-  },
-  {
-    name: "Session 2",
-    url: "#",
-  },
-] satisfies SessionNavItem[]
-
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
     <Sidebar collapsible="offcanvas" {...props}>
+      {/* Header */}
       <SidebarHeader>
         <SidebarMenu>
           <SidebarMenuItem>
@@ -58,14 +54,22 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
           </SidebarMenuItem>
         </SidebarMenu>
       </SidebarHeader>
+
+      {/* Contents */}
       <SidebarContent>
-        <NavMain items={navMainItems} />
-        <NavSessions sessions={navSessionItems} />
+        <React.Suspense>
+          <NavMain items={navMainItems} />
+        </React.Suspense>
+        <React.Suspense>
+          <NavSessions />
+        </React.Suspense>
       </SidebarContent>
+
+      {/* Footer */}
       <SidebarFooter>
+        <NavThemeToggle />
         <NavUser />
       </SidebarFooter>
-      <SidebarRail />
     </Sidebar>
   )
 }
