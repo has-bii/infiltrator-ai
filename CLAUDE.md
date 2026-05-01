@@ -40,12 +40,14 @@ npx prisma db push     # Push schema without migration
 - **Components:** shadcn/ui components go in `src/components/ui/` (configured in `components.json`)
 - **Dark mode:** supported via `.dark` class variant in CSS
 
-## graphify
+## graphify (MANDATORY for codebase exploration)
 
-This project has a graphify knowledge graph at graphify-out/.
+This project has a graphify knowledge graph at graphify-out/. **Graphify is the FIRST tool for ALL codebase exploration.** Do NOT use grep, find, Glob, or sequential file reads to explore the codebase without checking graphify first.
 
 Rules:
-- Before answering architecture or codebase questions, read graphify-out/GRAPH_REPORT.md for god nodes and community structure
-- If graphify-out/wiki/index.md exists, navigate it instead of reading raw files
+- **MANDATORY:** Before ANY codebase exploration (finding files, grepping symbols, understanding architecture, locating where X is defined, searching for patterns), check if `graphify-out/GRAPH_REPORT.md` exists. If it does, use graphify (`graphify query`, `graphify path`, `graphify explain`) as the primary exploration tool.
+- If `graphify-out/GRAPH_REPORT.md` exists: read it for god nodes and community structure, then use graphify commands to navigate. Only fall back to grep/find/Glob when graphify cannot answer the question (e.g. exact string matching in a specific file).
+- If `graphify-out/` does NOT exist: **STOP and ASK the user** — "graphify-out/ not found. Should I explore via paths you provide, or spawn haiku agents in parallel to explore the codebase?" Do NOT silently grep/find your way through the codebase.
+- If `graphify-out/wiki/index.md` exists, navigate it instead of reading raw files
 - For cross-module "how does X relate to Y" questions, prefer `graphify query "<question>"`, `graphify path "<A>" "<B>"`, or `graphify explain "<concept>"` over grep — these traverse the graph's EXTRACTED + INFERRED edges instead of scanning files
 - After modifying code files in this session, run `graphify update .` to keep the graph current (AST-only, no API cost)
