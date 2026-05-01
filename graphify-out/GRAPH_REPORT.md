@@ -1,10 +1,11 @@
-# Graph Report - ./src  (2026-05-01)
+# Graph Report - infiltrator-ai  (2026-05-01)
 
 ## Corpus Check
-- Corpus is ~412 words - fits in a single context window. You may not need a graph.
+- 11 files · ~1,010 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 9 nodes · 2 edges · 0 communities detected
+- 13 nodes · 2 edges · 0 communities detected
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 

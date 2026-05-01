@@ -4,18 +4,54 @@
   "graph": {},
   "nodes": [
     {
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "id": "postcss_config_mjs",
+      "community": 2,
+      "norm_label": "postcss.config.mjs"
+    },
+    {
+      "label": "prisma.config.ts",
+      "file_type": "code",
+      "source_file": "prisma.config.ts",
+      "source_location": "L1",
+      "id": "prisma_config_ts",
+      "community": 3,
+      "norm_label": "prisma.config.ts"
+    },
+    {
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1",
+      "id": "eslint_config_mjs",
+      "community": 4,
+      "norm_label": "eslint.config.mjs"
+    },
+    {
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L1",
+      "id": "next_config_ts",
+      "community": 5,
+      "norm_label": "next.config.ts"
+    },
+    {
       "label": "layout.tsx",
       "file_type": "code",
-      "source_file": "app/layout.tsx",
+      "source_file": "src/app/layout.tsx",
       "source_location": "L1",
-      "id": "app_layout_tsx",
+      "id": "src_app_layout_tsx",
       "community": 0,
       "norm_label": "layout.tsx"
     },
     {
       "label": "RootLayout()",
       "file_type": "code",
-      "source_file": "app/layout.tsx",
+      "source_file": "src/app/layout.tsx",
       "source_location": "L25",
       "id": "app_layout_rootlayout",
       "community": 0,
@@ -24,43 +60,43 @@
     {
       "label": "page.tsx",
       "file_type": "code",
-      "source_file": "app/page.tsx",
+      "source_file": "src/app/page.tsx",
       "source_location": "L1",
-      "id": "app_page_tsx",
-      "community": 2,
+      "id": "src_app_page_tsx",
+      "community": 6,
       "norm_label": "page.tsx"
     },
     {
       "label": "route.ts",
       "file_type": "code",
-      "source_file": "app/api/auth/[...all]/route.ts",
+      "source_file": "src/app/api/auth/[...all]/route.ts",
       "source_location": "L1",
-      "id": "app_api_auth_all_route_ts",
-      "community": 3,
+      "id": "src_app_api_auth_all_route_ts",
+      "community": 7,
       "norm_label": "route.ts"
     },
     {
       "label": "prisma.ts",
       "file_type": "code",
-      "source_file": "lib/prisma.ts",
+      "source_file": "src/lib/prisma.ts",
       "source_location": "L1",
-      "id": "lib_prisma_ts",
-      "community": 4,
+      "id": "src_lib_prisma_ts",
+      "community": 8,
       "norm_label": "prisma.ts"
     },
     {
       "label": "utils.ts",
       "file_type": "code",
-      "source_file": "lib/utils.ts",
+      "source_file": "src/lib/utils.ts",
       "source_location": "L1",
-      "id": "lib_utils_ts",
+      "id": "src_lib_utils_ts",
       "community": 1,
       "norm_label": "utils.ts"
     },
     {
       "label": "cn()",
       "file_type": "code",
-      "source_file": "lib/utils.ts",
+      "source_file": "src/lib/utils.ts",
       "source_location": "L4",
       "id": "lib_utils_cn",
       "community": 1,
@@ -69,19 +105,19 @@
     {
       "label": "auth.ts",
       "file_type": "code",
-      "source_file": "lib/auth.ts",
+      "source_file": "src/lib/auth.ts",
       "source_location": "L1",
-      "id": "lib_auth_ts",
-      "community": 5,
+      "id": "src_lib_auth_ts",
+      "community": 9,
       "norm_label": "auth.ts"
     },
     {
       "label": "auth-client.ts",
       "file_type": "code",
-      "source_file": "lib/auth-client.ts",
+      "source_file": "src/lib/auth-client.ts",
       "source_location": "L1",
-      "id": "lib_auth_client_ts",
-      "community": 6,
+      "id": "src_lib_auth_client_ts",
+      "community": 10,
       "norm_label": "auth-client.ts"
     }
   ],
@@ -89,24 +125,24 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app/layout.tsx",
+      "source_file": "src/app/layout.tsx",
       "source_location": "L25",
       "weight": 1.0,
-      "_src": "app_layout_tsx",
+      "_src": "src_app_layout_tsx",
       "_tgt": "app_layout_rootlayout",
-      "source": "app_layout_tsx",
+      "source": "src_app_layout_tsx",
       "target": "app_layout_rootlayout",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "lib/utils.ts",
+      "source_file": "src/lib/utils.ts",
       "source_location": "L4",
       "weight": 1.0,
-      "_src": "lib_utils_ts",
+      "_src": "src_lib_utils_ts",
       "_tgt": "lib_utils_cn",
-      "source": "lib_utils_ts",
+      "source": "src_lib_utils_ts",
       "target": "lib_utils_cn",
       "confidence_score": 1.0
     }
