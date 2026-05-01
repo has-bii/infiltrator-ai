@@ -24,3 +24,8 @@ export const uploadFile = async ({ file, userId }: Args) => {
     name: fileName,
   }
 }
+
+export const deleteFile = async (filePath: string) => {
+  const client = await createClient()
+  await client.storage.from(BUCKET_NAME).remove([filePath])
+}

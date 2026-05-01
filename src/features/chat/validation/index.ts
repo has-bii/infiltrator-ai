@@ -1,7 +1,7 @@
 import z from "zod"
 
 export const createChatSessionSchema = z.object({
-  message: z.string().min(1, "Message cannot be empty"),
+  message: z.string().min(1, "Message cannot be empty").max(10_000, "Message is too long"),
   file: z
     .file()
     .refine(

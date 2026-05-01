@@ -2,6 +2,7 @@ import { NextRequest } from "next/server"
 
 import { updateChatSessionSchema } from "@/features/chat/validation"
 import prisma from "@/lib/prisma"
+import { deleteFile } from "@/lib/supabase/uploadFile"
 import { NotFound, handleApiErrors } from "@/utils/errors"
 import { getUserSession } from "@/utils/getUserSession"
 
@@ -85,6 +86,12 @@ export async function DELETE(_: NextRequest, { params }: Args) {
         id,
         userId: userSession.user.id,
       },
+      include: {
+        messages: {
+          select: { fileUrl: true },
+          where: { fileUrl: { not: null } },
+        },
+      },
     })
 
     if (!chatSession) throw new NotFound("Chat session not found")
@@ -95,6 +102,8 @@ export async function DELETE(_: NextRequest, { params }: Args) {
         userId: userSession.user.id,
       },
     })
+
+    await Promise.all(chatSession.messages.map((msg) => deleteFile(msg.fileUrl!)).map((p) => p.catch(() => {})))
 
     return Response.json({
       message: "ok",

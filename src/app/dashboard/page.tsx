@@ -117,7 +117,7 @@ export default function Page() {
                 <DropdownMenuContent className="min-w-fit">
                   <DropdownMenuGroup>
                     <DropdownMenuItem
-                      disabled={!!file}
+                      disabled={!!file || mutation.isPending}
                       onClick={() => fileInputRef.current?.click()}
                     >
                       <RiLink />
