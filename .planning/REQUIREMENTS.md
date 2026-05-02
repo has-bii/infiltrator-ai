@@ -128,64 +128,64 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| DASH-01 | — | Pending |
-| DASH-02 | — | Pending |
-| DASH-03 | — | Pending |
-| DASH-04 | — | Pending |
-| AGNT-01 | — | Pending |
-| AGNT-02 | — | Pending |
-| AGNT-03 | — | Pending |
-| AGNT-04 | — | Pending |
-| AGNT-05 | — | Pending |
-| AGNT-06 | — | Pending |
-| AGNT-07 | — | Pending |
-| AGNT-08 | — | Pending |
-| AGNT-09 | — | Pending |
-| JDA-01 | — | Pending |
-| JDA-02 | — | Pending |
-| JDA-03 | — | Pending |
-| INTG-01 | — | Pending |
-| INTG-02 | — | Pending |
-| INTG-03 | — | Pending |
-| INTG-04 | — | Pending |
-| INTG-05 | — | Pending |
-| INTG-06 | — | Pending |
-| INTG-07 | — | Pending |
-| INTG-08 | — | Pending |
-| INTG-09 | — | Pending |
-| DOCG-01 | — | Pending |
-| DOCG-02 | — | Pending |
-| DOCG-03 | — | Pending |
-| DOCG-04 | — | Pending |
-| DOCG-05 | — | Pending |
-| ATS-01 | — | Pending |
-| ATS-02 | — | Pending |
-| ATS-03 | — | Pending |
-| ATS-04 | — | Pending |
-| ATS-05 | — | Pending |
-| STRM-01 | — | Pending |
-| STRM-02 | — | Pending |
-| STRM-03 | — | Pending |
-| STRM-04 | — | Pending |
-| STRM-05 | — | Pending |
-| EXPR-01 | — | Pending |
-| EXPR-02 | — | Pending |
-| EXPR-03 | — | Pending |
-| EXPR-04 | — | Pending |
-| TERM-01 | — | Pending |
-| TERM-02 | — | Pending |
-| TERM-03 | — | Pending |
-| TERM-04 | — | Pending |
-| TERM-05 | — | Pending |
-| TERM-06 | — | Pending |
-| TERM-07 | — | Pending |
-| TERM-08 | — | Pending |
+| DASH-01 | Phase 6 | Pending |
+| DASH-02 | Phase 6 | Pending |
+| DASH-03 | Phase 6 | Pending |
+| DASH-04 | Phase 6 | Pending |
+| AGNT-01 | Phase 1 | Pending |
+| AGNT-02 | Phase 1 | Pending |
+| AGNT-03 | Phase 1 | Pending |
+| AGNT-04 | Phase 1 | Pending |
+| AGNT-05 | Phase 1 | Pending |
+| AGNT-06 | Phase 1 | Pending |
+| AGNT-07 | Phase 1 | Pending |
+| AGNT-08 | Phase 1 | Pending |
+| AGNT-09 | Phase 1 | Pending |
+| JDA-01 | Phase 2 | Pending |
+| JDA-02 | Phase 2 | Pending |
+| JDA-03 | Phase 2 | Pending |
+| INTG-01 | Phase 3 | Pending |
+| INTG-02 | Phase 3 | Pending |
+| INTG-03 | Phase 3 | Pending |
+| INTG-04 | Phase 3 | Pending |
+| INTG-05 | Phase 3 | Pending |
+| INTG-06 | Phase 3 | Pending |
+| INTG-07 | Phase 3 | Pending |
+| INTG-08 | Phase 3 | Pending |
+| INTG-09 | Phase 3 | Pending |
+| DOCG-01 | Phase 4 | Pending |
+| DOCG-02 | Phase 4 | Pending |
+| DOCG-03 | Phase 4 | Pending |
+| DOCG-04 | Phase 4 | Pending |
+| DOCG-05 | Phase 4 | Pending |
+| ATS-01 | Phase 4 | Pending |
+| ATS-02 | Phase 4 | Pending |
+| ATS-03 | Phase 4 | Pending |
+| ATS-04 | Phase 4 | Pending |
+| ATS-05 | Phase 4 | Pending |
+| STRM-01 | Phase 2 | Pending |
+| STRM-02 | Phase 2 | Pending |
+| STRM-03 | Phase 2 | Pending |
+| STRM-04 | Phase 2 | Pending |
+| STRM-05 | Phase 3 | Pending |
+| EXPR-01 | Phase 5 | Pending |
+| EXPR-02 | Phase 5 | Pending |
+| EXPR-03 | Phase 5 | Pending |
+| EXPR-04 | Phase 5 | Pending |
+| TERM-01 | Phase 6 | Pending |
+| TERM-02 | Phase 6 | Pending |
+| TERM-03 | Phase 6 | Pending |
+| TERM-04 | Phase 6 | Pending |
+| TERM-05 | Phase 6 | Pending |
+| TERM-06 | Phase 6 | Pending |
+| TERM-07 | Phase 6 | Pending |
+| TERM-08 | Phase 6 | Pending |
 
 **Coverage:**
 - v1 requirements: 52 total
-- Mapped to phases: 0
-- Unmapped: 52 (pending roadmap creation)
+- Mapped to phases: 52
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-05-02*
-*Last updated: 2026-05-02 after initial definition*
+*Last updated: 2026-05-02 after roadmap creation*
