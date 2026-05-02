@@ -1,6 +1,6 @@
 "use client"
 
-import { RiAddCircleFill, RiChatAi4Fill, RiRobot3Fill } from "@remixicon/react"
+import { RiHomeFill, RiRobot3Fill } from "@remixicon/react"
 import React from "react"
 
 import { MainSidebarMenuItem, NavMain } from "@/components/nav-main"
@@ -13,7 +13,6 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-  SidebarRail,
 } from "@/components/ui/sidebar"
 
 import { NavSessions } from "./nav-sessions"
@@ -21,14 +20,9 @@ import { NavThemeToggle } from "./nav-theme-toggle"
 
 const navMainItems = [
   {
-    title: "New Session",
+    title: "Dashboard",
     url: "/dashboard",
-    icon: <RiAddCircleFill />,
-  },
-  {
-    title: "Sessions",
-    url: "/dashboard/recent",
-    icon: <RiChatAi4Fill />,
+    icon: <RiHomeFill />,
   },
 ] satisfies MainSidebarMenuItem[]
 

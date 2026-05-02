@@ -1,9 +1,9 @@
-ignoredBuiltDependencies:
-  - sharp
-  - unrs-resolver
-onlyBuiltDependencies:
-  - '@openrouter/sdk'
-  - '@prisma/engines'
-  - esbuild
-  - msw
-  - prisma
+allowBuilds:
+  '@openrouter/sdk': true
+  '@prisma/engines': true
+  esbuild: true
+  msw: true
+  prisma: true
+  protobufjs: true
+  sharp: true
+  unrs-resolver: true
